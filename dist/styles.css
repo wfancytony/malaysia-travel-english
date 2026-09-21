@@ -147,3 +147,13 @@ dialog{background:var(--bg);overscroll-behavior:contain}
   .dest-toggle{font-size:12px;padding:7px 11px;min-height:38px}
   .dest-menu{min-width:140px}
 }
+.japanese{font-size:20px;line-height:1.5;margin:10px 0 0;color:var(--ink);font-weight:500}
+.dialogue-jp{font-size:17px;line-height:1.5;margin:6px 0;color:var(--ink)}
+#show-japanese{font-size:clamp(1.5rem,5.5vw,2.1rem);line-height:1.4;overflow-wrap:anywhere;margin:16px 0;font-weight:550}
+.jp-button{background:#f0eef8;color:#4a3a8a}
+.jp-button:hover{background:#e6e3f5}
+.jp-button.is-active{box-shadow:0 0 0 3px #c5c0e8}
+.audio-controls:has(.jp-button:not([hidden])){grid-template-columns:1fr 1fr 1fr 1fr}
+@media(max-width:950px){.audio-controls:has(.jp-button:not([hidden])){grid-template-columns:1fr 1fr 1fr 1fr;gap:5px}}
+@media(max-width:700px){.japanese{font-size:18px}.dialogue-jp{font-size:15px}}
+@media(max-width:360px){.audio-controls:has(.jp-button:not([hidden])){grid-template-columns:1fr 1fr}.jp-button{grid-column:span 2}}

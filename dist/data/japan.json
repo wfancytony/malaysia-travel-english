@@ -23,6 +23,7 @@
           "id": "arrival-1",
           "en": "I'm here for sightseeing.",
           "zh": "我是来观光的。",
+          "jp": "観光で来ました。",
           "chunks": "I'm here / for sightseeing.",
           "tip": "入境时按真实目的回答；这句适用于旅游观光。",
           "audio": ""
@@ -31,6 +32,7 @@
           "id": "arrival-2",
           "en": "I'll be staying for a week.",
           "zh": "我会待一个星期。",
+          "jp": "一週間滞在します。",
           "chunks": "I'll be staying / for a week.",
           "tip": "按实际停留天数替换时间长度。",
           "audio": ""
@@ -39,6 +41,7 @@
           "id": "arrival-3",
           "en": "Here's my passport.",
           "zh": "这是我的护照。",
+          "jp": "これが私のパスポートです。",
           "chunks": "Here's / my passport.",
           "tip": "",
           "audio": ""
@@ -47,6 +50,7 @@
           "id": "arrival-4",
           "en": "Where can I collect my luggage?",
           "zh": "我在哪里取行李？",
+          "jp": "荷物はどこで受け取れますか？",
           "chunks": "Where can I / collect my luggage?",
           "tip": "luggage 指行李，问托运行李领取处时用。",
           "audio": ""
@@ -55,6 +59,7 @@
           "id": "arrival-5",
           "en": "Where's the toilet?",
           "zh": "洗手间在哪里？",
+          "jp": "トイレはどこですか？",
           "chunks": "Where's / the toilet?",
           "tip": "开口前可以加 Excuse me，意思是\"打扰一下\"。",
           "audio": ""
@@ -63,6 +68,7 @@
           "id": "arrival-6",
           "en": "Where's the exit?",
           "zh": "出口在哪里？",
+          "jp": "出口はどこですか？",
           "chunks": "Where's / the exit?",
           "tip": "",
           "audio": ""
@@ -71,6 +77,7 @@
           "id": "arrival-7",
           "en": "Could you speak more slowly?",
           "zh": "可以说慢一点吗？",
+          "jp": "もう少しゆっくり話していただけますか？",
           "chunks": "Could you / speak more slowly?",
           "tip": "听不清时直接说，任何场景都能用。",
           "audio": ""
@@ -79,6 +86,7 @@
           "id": "arrival-8",
           "en": "Could you say that again?",
           "zh": "可以再说一遍吗？",
+          "jp": "もう一度言っていただけますか？",
           "chunks": "Could you / say that again?",
           "tip": "",
           "audio": ""
@@ -87,6 +95,7 @@
           "id": "arrival-9",
           "en": "Where can I get a train to the city?",
           "zh": "在哪里可以坐电车去市区？",
+          "jp": "市内行きの電車はどこで乗れますか？",
           "chunks": "Where can I get / a train to the city?",
           "tip": "日本机场通常有直达市区的电车线路。",
           "audio": ""
@@ -95,6 +104,7 @@
           "id": "arrival-10",
           "en": "Where can I buy a train ticket?",
           "zh": "在哪里可以买电车票？",
+          "jp": "切符はどこで買えますか？",
           "chunks": "Where can I buy / a train ticket?",
           "tip": "",
           "audio": ""
@@ -105,24 +115,28 @@
           "role": "入境工作人员",
           "en": "What's the purpose of your visit?",
           "zh": "您这次来是做什么的？",
+          "jp": "ご訪問の目的は何ですか？",
           "audio": ""
         },
         {
           "role": "旅客",
           "en": "I'm here for sightseeing.",
           "zh": "我是来观光的。",
+          "jp": "観光で来ました。",
           "audio": ""
         },
         {
           "role": "入境工作人员",
           "en": "How long are you staying?",
           "zh": "您打算待多久？",
+          "jp": "どのくらい滞在しますか？",
           "audio": ""
         },
         {
           "role": "旅客",
           "en": "I'll be staying for a week.",
           "zh": "我会待一个星期。",
+          "jp": "一週間滞在します。",
           "audio": ""
         }
       ]
@@ -138,6 +152,7 @@
           "id": "cabin-baggage-1",
           "en": "We have no checked baggage.",
           "zh": "我们没有托运行李。",
+          "jp": "預け入れ荷物はありません。",
           "chunks": "We have / no checked baggage.",
           "tip": "checked baggage 是托运行李；有托运时不要用这句。",
           "audio": ""
@@ -146,6 +161,7 @@
           "id": "cabin-baggage-2",
           "en": "We all have cabin bags.",
           "zh": "我们都带着随身行李。",
+          "jp": "全員機内持ち込み荷物があります。",
           "chunks": "We all have / cabin bags.",
           "tip": "cabin bags 指带进机舱的行李。",
           "audio": ""
@@ -154,6 +170,7 @@
           "id": "cabin-baggage-3",
           "en": "What's the free cabin baggage allowance?",
           "zh": "免费的随身行李额度是多少？",
+          "jp": "機内持ち込み荷物の無料枠はどのくらいですか？",
           "chunks": "What's the free / cabin baggage allowance?",
           "tip": "让工作人员按你的实际机票确认额度。",
           "audio": ""
@@ -162,6 +179,7 @@
           "id": "cabin-baggage-4",
           "en": "How many bags can each person bring?",
           "zh": "每个人可以带几件行李？",
+          "jp": "一人何個まで持ち込めますか？",
           "chunks": "How many bags / can each person bring?",
           "tip": "each person 是每个人；这里问随身行李件数。",
           "audio": ""
@@ -170,6 +188,7 @@
           "id": "cabin-baggage-5",
           "en": "What's the weight limit for each person?",
           "zh": "每个人的重量上限是多少？",
+          "jp": "一人あたりの重量制限は何キロですか？",
           "chunks": "What's the weight limit / for each person?",
           "tip": "接着随身行李的话题问，确认是每人的额度。",
           "audio": ""
@@ -178,6 +197,7 @@
           "id": "cabin-baggage-6",
           "en": "What's the size limit for a cabin bag?",
           "zh": "随身行李的尺寸上限是多少？",
+          "jp": "機内持ち込み荷物のサイズ制限はありますか？",
           "chunks": "What's the size limit / for a cabin bag?",
           "tip": "",
           "audio": ""
@@ -186,6 +206,7 @@
           "id": "cabin-baggage-7",
           "en": "Can I also bring a small personal bag?",
           "zh": "我还可以另外带一个随身小包吗？",
+          "jp": "小さな手荷物ももう一つ持ち込めますか？",
           "chunks": "Can I also bring / a small personal bag?",
           "tip": "可指背包或手提包；不要先默认能额外带。",
           "audio": ""
@@ -194,6 +215,7 @@
           "id": "cabin-baggage-8",
           "en": "Are both bags weighed together?",
           "zh": "这两件行李是合在一起称重吗？",
+          "jp": "二つの荷物は合わせて計量しますか？",
           "chunks": "Are both bags / weighed together?",
           "tip": "指同一个人的登机箱和小包，不是两位旅客。",
           "audio": ""
@@ -202,6 +224,7 @@
           "id": "cabin-baggage-9",
           "en": "Could you weigh this bag, please?",
           "zh": "可以帮我称一下这件行李吗？",
+          "jp": "この荷物を計量していただけますか？",
           "chunks": "Could you weigh / this bag, please?",
           "tip": "",
           "audio": ""
@@ -210,6 +233,7 @@
           "id": "cabin-baggage-10",
           "en": "How much is the excess baggage fee?",
           "zh": "超出行李额度要收多少钱？",
+          "jp": "超過手荷物料金はいくらですか？",
           "chunks": "How much is / the excess baggage fee?",
           "tip": "先确认怎样处理和收费，不代表超额行李付钱就能带上机。",
           "audio": ""
@@ -218,6 +242,7 @@
           "id": "cabin-baggage-11",
           "en": "Can this bag go in the overhead compartment?",
           "zh": "这个包可以放在头顶的行李舱里吗？",
+          "jp": "この荷物を頭上の荷物棚に入れてもいいですか？",
           "chunks": "Can this bag go / in the overhead compartment?",
           "tip": "overhead compartment 是机舱座位上方的行李舱。",
           "audio": ""
@@ -226,6 +251,7 @@
           "id": "cabin-baggage-12",
           "en": "What are the rules for liquids in cabin bags?",
           "zh": "随身行李里的液体有什么规定？",
+          "jp": "機内持ち込みの液体についてのルールは何ですか？",
           "chunks": "What are the rules / for liquids in cabin bags?",
           "tip": "询问这次行程适用的规定，这里不预设容量限制。",
           "audio": ""
@@ -236,24 +262,28 @@
           "role": "旅客",
           "en": "We all have cabin bags, with no checked baggage.",
           "zh": "我们都有随身行李，没有托运行李。",
+          "jp": "全員機内持ち込み荷物があり、預け入れ荷物はありません。",
           "audio": ""
         },
         {
           "role": "航司工作人员",
           "en": "Do you also have any small personal bags?",
           "zh": "你们还带了随身小包吗？",
+          "jp": "小さな手荷物もお持ちですか？",
           "audio": ""
         },
         {
           "role": "旅客",
           "en": "Yes. Does the weight limit include our personal bags?",
           "zh": "有。重量限额也包含这些小包吗？",
+          "jp": "はい。重量制限に手荷物は含まれますか？",
           "audio": ""
         },
         {
           "role": "航司工作人员",
           "en": "Let me check the allowance for your booking.",
           "zh": "我查一下你们这张订单的行李额度。",
+          "jp": "ご予約の手荷物枠を確認します。",
           "audio": ""
         }
       ]
@@ -269,6 +299,7 @@
           "id": "flights-1",
           "en": "Which gate should we go to?",
           "zh": "我们应该去哪个登机口？",
+          "jp": "どのゲートに行けばいいですか？",
           "chunks": "Which gate / should we go to?",
           "tip": "可以同时出示登机牌确认。",
           "audio": ""
@@ -277,6 +308,7 @@
           "id": "flights-2",
           "en": "Has the gate changed?",
           "zh": "登机口有变吗？",
+          "jp": "ゲートは変わりましたか？",
           "chunks": "Has the gate / changed?",
           "tip": "",
           "audio": ""
@@ -285,6 +317,7 @@
           "id": "flights-3",
           "en": "What time does this flight depart?",
           "zh": "这班飞机几点起飞？",
+          "jp": "このフライトは何時に出発しますか？",
           "chunks": "What time / does this flight depart?",
           "tip": "depart 是出发；这里问航班起飞时间。",
           "audio": ""
@@ -293,6 +326,7 @@
           "id": "flights-4",
           "en": "What time will we arrive?",
           "zh": "我们几点到达？",
+          "jp": "何時に到着しますか？",
           "chunks": "What time / will we arrive?",
           "tip": "",
           "audio": ""
@@ -301,6 +335,7 @@
           "id": "flights-5",
           "en": "What time does boarding start?",
           "zh": "几点开始登机？",
+          "jp": "搭乗は何時から始まりますか？",
           "chunks": "What time / does boarding start?",
           "tip": "boarding 是登机；与起飞时间分别确认。",
           "audio": ""
@@ -309,6 +344,7 @@
           "id": "flights-6",
           "en": "What time does the boarding gate close?",
           "zh": "登机口几点关闭？",
+          "jp": "搭乗ゲートは何時に閉まりますか？",
           "chunks": "What time / does the boarding gate close?",
           "tip": "确认最晚登机节点，不要把起飞时间当成截止时间。",
           "audio": ""
@@ -317,6 +353,7 @@
           "id": "flights-7",
           "en": "Is the flight delayed?",
           "zh": "航班延误了吗？",
+          "jp": "フライトは遅れていますか？",
           "chunks": "Is the flight / delayed?",
           "tip": "",
           "audio": ""
@@ -325,6 +362,7 @@
           "id": "flights-8",
           "en": "What's the new departure time?",
           "zh": "新的起飞时间是几点？",
+          "jp": "新しい出発時刻は何時ですか？",
           "chunks": "What's the new / departure time?",
           "tip": "听到航班时间调整后再问。",
           "audio": ""
@@ -333,6 +371,7 @@
           "id": "flights-9",
           "en": "Is that the local time?",
           "zh": "那是当地时间吗？",
+          "jp": "それは現地時間ですか？",
           "chunks": "Is that / the local time?",
           "tip": "跨时区时可进一步指明是出发地还是目的地。",
           "audio": ""
@@ -341,6 +380,7 @@
           "id": "flights-10",
           "en": "Do we need to change planes?",
           "zh": "我们需要换乘另一班飞机吗？",
+          "jp": "乗り継ぎは必要ですか？",
           "chunks": "Do we need to / change planes?",
           "tip": "先按机票确认是否转机；后面的转机句在需要时使用。",
           "audio": ""
@@ -349,6 +389,7 @@
           "id": "flights-11",
           "en": "Is our connecting flight at the same airport?",
           "zh": "我们的下一程航班在同一个机场吗？",
+          "jp": "乗り継ぎ便は同じ空港ですか？",
           "chunks": "Is our connecting flight / at the same airport?",
           "tip": "connecting flight 是衔接的下一程航班。",
           "audio": ""
@@ -357,6 +398,7 @@
           "id": "flights-12",
           "en": "Do we need to change terminals?",
           "zh": "我们需要换航站楼吗？",
+          "jp": "ターミナルを移動する必要がありますか？",
           "chunks": "Do we need to / change terminals?",
           "tip": "terminal 是航站楼，gate 是登机口。",
           "audio": ""
@@ -365,6 +407,7 @@
           "id": "flights-13",
           "en": "How do we get to the other terminal?",
           "zh": "我们怎么去另一个航站楼？",
+          "jp": "別のターミナルにはどう行けばいいですか？",
           "chunks": "How do we get / to the other terminal?",
           "tip": "确认需要换航站楼后再问。",
           "audio": ""
@@ -373,6 +416,7 @@
           "id": "flights-14",
           "en": "How much time do we have for the connection?",
           "zh": "我们有多少转机时间？",
+          "jp": "乗り継ぎの時間はどのくらいありますか？",
           "chunks": "How much time do we have / for the connection?",
           "tip": "",
           "audio": ""
@@ -383,24 +427,28 @@
           "role": "旅客",
           "en": "Has the gate changed?",
           "zh": "登机口有变吗？",
+          "jp": "ゲートは変わりましたか？",
           "audio": ""
         },
         {
           "role": "机场工作人员",
           "en": "Yes. Please check the new gate on the screen.",
           "zh": "有，请看屏幕上的新登机口。",
+          "jp": "はい。画面で新しいゲートをご確認ください。",
           "audio": ""
         },
         {
           "role": "旅客",
           "en": "What time does boarding start?",
           "zh": "几点开始登机？",
+          "jp": "搭乗は何時から始まりますか？",
           "audio": ""
         },
         {
           "role": "机场工作人员",
           "en": "Let me check the latest boarding time for you.",
           "zh": "我帮你们查一下最新的登机时间。",
+          "jp": "最新の搭乗時刻をご確認します。",
           "audio": ""
         }
       ]
@@ -416,6 +464,7 @@
           "id": "numbers-1",
           "en": "There are two of us.",
           "zh": "我们一共两个人。",
+          "jp": "二人です。",
           "chunks": "There are / two of us.",
           "tip": "可用于订位、买票或向工作人员说明人数；按实际人数替换。",
           "audio": ""
@@ -424,6 +473,7 @@
           "id": "numbers-2",
           "en": "We'd like two tickets, please.",
           "zh": "我们要两张票，谢谢。",
+          "jp": "チケットを二枚お願いします。",
           "chunks": "We'd like / two tickets, please.",
           "tip": "按实际人数替换数量。",
           "audio": ""
@@ -432,6 +482,7 @@
           "id": "numbers-3",
           "en": "Could we have seats together?",
           "zh": "可以安排连在一起的座位吗？",
+          "jp": "隣り合った席にできますか？",
           "chunks": "Could we have / seats together?",
           "tip": "这是提出请求，是否能安排以现场答复为准。",
           "audio": ""
@@ -440,6 +491,7 @@
           "id": "numbers-4",
           "en": "Our flight number is JL123.",
           "zh": "我们的航班号是 JL123。",
+          "jp": "便名はJL123です。",
           "chunks": "Our flight number is / JL123.",
           "tip": "JL123 只是读法示例，不是你们的航班；字母和数字逐个读。",
           "speak": "Our flight number is J L one two three.",
@@ -449,6 +501,7 @@
           "id": "numbers-5",
           "en": "The child is eight years old.",
           "zh": "这位小朋友八岁。",
+          "jp": "子供は八歳です。",
           "chunks": "The child is / eight years old.",
           "tip": "八岁仅为练习示例，不代表同行者的实际年龄；按真实周岁回答。",
           "audio": ""
@@ -457,6 +510,7 @@
           "id": "numbers-6",
           "en": "I'm thirty years old.",
           "zh": "我三十岁。",
+          "jp": "三十歳です。",
           "chunks": "I'm / thirty years old.",
           "tip": "三十岁仅为练习示例，不是你的年龄；实际使用时替换。",
           "audio": ""
@@ -465,6 +519,7 @@
           "id": "numbers-7",
           "en": "I'm sixty years old.",
           "zh": "我六十岁。",
+          "jp": "六十歳です。",
           "chunks": "I'm / sixty years old.",
           "tip": "六十岁仅为练习示例，不是你的年龄；实际使用时替换。",
           "audio": ""
@@ -473,6 +528,7 @@
           "id": "numbers-8",
           "en": "How old is the child?",
           "zh": "这位小朋友几岁？",
+          "jp": "お子さんは何歳ですか？",
           "chunks": "How old / is the child?",
           "tip": "也练习听懂工作人员的提问；不表示这次同行者中有儿童。",
           "audio": ""
@@ -481,6 +537,7 @@
           "id": "numbers-9",
           "en": "My phone number is 090 1234 5678.",
           "zh": "我的电话号码是 090 1234 5678。",
+          "jp": "私の電話番号は090-1234-5678です。",
           "chunks": "My phone number is / 090 / 1234 / 5678.",
           "tip": "号码仅用于逐位读数练习，不是你的号码；实际报自己的完整号码和国家区号。",
           "speak": "My phone number is zero nine zero, one two three four, five six seven eight.",
@@ -490,6 +547,7 @@
           "id": "numbers-10",
           "en": "Departure is at two thirty p.m.",
           "zh": "下午两点半出发。",
+          "jp": "出発は午後二時半です。",
           "chunks": "Departure is at / two thirty p.m.",
           "tip": "时间仅为示例：下午 2:30 就是 14:30，不是实际航班时间。",
           "audio": ""
@@ -498,6 +556,7 @@
           "id": "numbers-11",
           "en": "Arrival is at six forty-five p.m.",
           "zh": "下午六点四十五到达。",
+          "jp": "到着は午後六時四十五分です。",
           "chunks": "Arrival is at / six forty-five p.m.",
           "tip": "时间仅为示例：下午 6:45 就是 18:45，不是实际航班时间。",
           "audio": ""
@@ -506,6 +565,7 @@
           "id": "numbers-12",
           "en": "Is this Terminal One?",
           "zh": "这里是一号航站楼吗？",
+          "jp": "ここは第一ターミナルですか？",
           "chunks": "Is this / Terminal One?",
           "tip": "练习读数字 1；不代表你们应当前往一号航站楼。",
           "audio": ""
@@ -514,6 +574,7 @@
           "id": "numbers-13",
           "en": "How do we get to Terminal Two?",
           "zh": "我们怎么去二号航站楼？",
+          "jp": "第二ターミナルにはどう行けばいいですか？",
           "chunks": "How do we get / to Terminal Two?",
           "tip": "练习读数字 2；具体航站楼按自己的航班确认。",
           "audio": ""
@@ -522,6 +583,7 @@
           "id": "numbers-14",
           "en": "This cabin bag weighs seven kilograms.",
           "zh": "这件随身行李重七公斤。",
+          "jp": "この機内持ち込み荷物は七キログラムです。",
           "chunks": "This cabin bag weighs / seven kilograms.",
           "tip": "七公斤仅为重量读法示例，不是免费行李额度或实际称重结果。",
           "audio": ""
@@ -532,24 +594,28 @@
           "role": "航司工作人员",
           "en": "How many people are travelling?",
           "zh": "一共有几个人出行？",
+          "jp": "何名様ですか？",
           "audio": ""
         },
         {
           "role": "旅客",
           "en": "There are two of us.",
           "zh": "我们一共两个人。",
+          "jp": "二人です。",
           "audio": ""
         },
         {
           "role": "航司工作人员",
           "en": "What's your flight number?",
           "zh": "你们的航班号是什么？",
+          "jp": "便名は何ですか？",
           "audio": ""
         },
         {
           "role": "旅客",
           "en": "Our flight number is JL123.",
           "zh": "我们的航班号是 JL123。",
+          "jp": "便名はJL123です。",
           "speak": "Our flight number is J L one two three.",
           "audio": ""
         }
@@ -566,6 +632,7 @@
           "id": "transport-1",
           "en": "Where's the nearest train station?",
           "zh": "最近的电站在哪里？",
+          "jp": "一番近い駅はどこですか？",
           "chunks": "Where's / the nearest train station?",
           "tip": "日本城市间出行最常坐电车，train station 是车站。",
           "audio": ""
@@ -574,6 +641,7 @@
           "id": "transport-2",
           "en": "Which line goes to Tokyo Station?",
           "zh": "哪条线路到东京站？",
+          "jp": "東京駅に行くのはどの路線ですか？",
           "chunks": "Which line goes / to Tokyo Station?",
           "tip": "line 指电车线路；把 Tokyo Station 换成你的目的地站名。",
           "audio": ""
@@ -582,6 +650,7 @@
           "id": "transport-3",
           "en": "Where can I buy a train ticket?",
           "zh": "在哪里可以买电车票？",
+          "jp": "切符はどこで買えますか？",
           "chunks": "Where can I buy / a train ticket?",
           "tip": "",
           "audio": ""
@@ -590,6 +659,7 @@
           "id": "transport-4",
           "en": "How do I get to this address?",
           "zh": "我怎么去这个地址？",
+          "jp": "この住所まではどう行けばいいですか？",
           "chunks": "How do I get / to this address?",
           "tip": "说的时候把目的地地址给对方看。",
           "audio": ""
@@ -598,6 +668,7 @@
           "id": "transport-5",
           "en": "How long will it take?",
           "zh": "大概要多久？",
+          "jp": "どのくらい時間がかかりますか？",
           "chunks": "How long / will it take?",
           "tip": "",
           "audio": ""
@@ -606,6 +677,7 @@
           "id": "transport-6",
           "en": "Do I need to transfer?",
           "zh": "需要换乘吗？",
+          "jp": "乗り換えは必要ですか？",
           "chunks": "Do I need to / transfer?",
           "tip": "transfer 是换乘；日本电车常需要在中途站换线。",
           "audio": ""
@@ -614,6 +686,7 @@
           "id": "transport-7",
           "en": "Which platform should I go to?",
           "zh": "我应该去几号站台？",
+          "jp": "何番ホームに行けばいいですか？",
           "chunks": "Which platform / should I go to?",
           "tip": "platform 是站台；上车前确认站台编号。",
           "audio": ""
@@ -622,6 +695,7 @@
           "id": "transport-8",
           "en": "Is this the right train for Osaka?",
           "zh": "这班车是去大阪的吗？",
+          "jp": "これは大阪行きの電車で合っていますか？",
           "chunks": "Is this the right train / for Osaka?",
           "tip": "上车前向站务员或旁边旅客确认。",
           "audio": ""
@@ -630,6 +704,7 @@
           "id": "transport-9",
           "en": "Where's the taxi stand?",
           "zh": "出租车候车区在哪里？",
+          "jp": "タクシー乗り場はどこですか？",
           "chunks": "Where's / the taxi stand?",
           "tip": "taxi stand 是出租车排队上车点。",
           "audio": ""
@@ -638,6 +713,7 @@
           "id": "transport-10",
           "en": "Could you take me to this address?",
           "zh": "可以载我去这个地址吗？",
+          "jp": "この住所までお願いします。",
           "chunks": "Could you take me / to this address?",
           "tip": "把地址给司机看。",
           "audio": ""
@@ -646,6 +722,7 @@
           "id": "transport-11",
           "en": "Could you stop here, please?",
           "zh": "麻烦在这里停一下。",
+          "jp": "ここで止まっていただけますか？",
           "chunks": "Could you stop here, / please?",
           "tip": "",
           "audio": ""
@@ -654,6 +731,7 @@
           "id": "transport-12",
           "en": "Is it within walking distance?",
           "zh": "走路能到吗？",
+          "jp": "歩いて行ける距離ですか？",
           "chunks": "Is it / within walking distance?",
           "tip": "已经说清目的地后，用这句问远不远。",
           "audio": ""
@@ -662,6 +740,7 @@
           "id": "transport-13",
           "en": "Could you show me on the map?",
           "zh": "可以在地图上指给我看吗？",
+          "jp": "地図で教えていただけますか？",
           "chunks": "Could you show me / on the map?",
           "tip": "",
           "audio": ""
@@ -670,6 +749,7 @@
           "id": "transport-14",
           "en": "How much is the fare?",
           "zh": "车费是多少？",
+          "jp": "運賃はいくらですか？",
           "chunks": "How much is / the fare?",
           "tip": "fare 是交通费用。",
           "audio": ""
@@ -680,24 +760,28 @@
           "role": "旅客",
           "en": "Which line goes to Tokyo Station?",
           "zh": "哪条线路到东京站？",
+          "jp": "東京駅に行くのはどの路線ですか？",
           "audio": ""
         },
         {
           "role": "站务员",
           "en": "Take the Yamanote Line. It's on platform two.",
           "zh": "坐山手线，在二号站台。",
+          "jp": "山手線にお乗りください。二番ホームです。",
           "audio": ""
         },
         {
           "role": "旅客",
           "en": "Do I need to transfer?",
           "zh": "需要换乘吗？",
+          "jp": "乗り換えは必要ですか？",
           "audio": ""
         },
         {
           "role": "站务员",
           "en": "No, it's a direct ride.",
           "zh": "不用，直达。",
+          "jp": "いいえ、乗り換えなしで直达です。",
           "audio": ""
         }
       ]
@@ -713,6 +797,7 @@
           "id": "tk-asakusa",
           "en": "Senso-ji Temple.",
           "zh": "浅草寺",
+          "jp": "浅草寺",
           "chunks": "Senso-ji / Temple.",
           "tip": "东京最古老的寺庙；地图搜完整名称，正门雷门和主殿入口需分别确认。",
           "city": "Tokyo",
@@ -727,6 +812,7 @@
           "id": "tk-shibuya",
           "en": "Shibuya Crossing.",
           "zh": "涩谷十字路口",
+          "jp": "渋谷スクランブル交差点",
           "chunks": "Shibuya / Crossing.",
           "tip": "著名的涩谷 scramble 交叉路口；地图搜索时加上 Shibuya 确认位置。",
           "city": "Tokyo",
@@ -741,6 +827,7 @@
           "id": "tk-shinjuku",
           "en": "Shinjuku Station.",
           "zh": "新宿站",
+          "jp": "新宿駅",
           "chunks": "Shinjuku / Station.",
           "tip": "世界上客流量最大的车站之一；车站有多个出口，地图需确认具体出口编号。",
           "city": "Tokyo",
@@ -755,6 +842,7 @@
           "id": "tk-ginza",
           "en": "Ginza.",
           "zh": "银座",
+          "jp": "銀座",
           "chunks": "Ginza.",
           "tip": "东京的高端购物和餐饮区；地图搜 Ginza Tokyo 定位街区，具体商场另选。",
           "city": "Tokyo",
@@ -769,6 +857,7 @@
           "id": "tk-akihabara",
           "en": "Akihabara.",
           "zh": "秋叶原",
+          "jp": "秋葉原",
           "chunks": "Akihabara.",
           "tip": "电子产品和动漫文化聚集区；地图搜 Akihabara Tokyo 定位街区。",
           "city": "Tokyo",
@@ -783,6 +872,7 @@
           "id": "tk-tokyo-tower",
           "en": "Tokyo Tower.",
           "zh": "东京塔",
+          "jp": "東京タワー",
           "chunks": "Tokyo / Tower.",
           "tip": "东京地标红白塔；地图搜完整名称，观景台入口需单独确认。",
           "city": "Tokyo",
@@ -797,6 +887,7 @@
           "id": "tk-tsukiji",
           "en": "Tsukiji Outer Market.",
           "zh": "筑地场外市场",
+          "jp": "築地場外市場",
           "chunks": "Tsukiji / Outer Market.",
           "tip": "筑地外市场保留了许多餐饮和海鲜店；地图搜 Outer Market 避免与场内市场混淆。",
           "city": "Tokyo",
@@ -811,6 +902,7 @@
           "id": "tk-meiji-shrine",
           "en": "Meiji Shrine.",
           "zh": "明治神宫",
+          "jp": "明治神宮",
           "chunks": "Meiji / Shrine.",
           "tip": "位于原宿站和明治神宫前站之间的大型神社；地图确认从哪个入口进入。",
           "city": "Tokyo",
@@ -825,6 +917,7 @@
           "id": "tk-don-quijote",
           "en": "Don Quijote Shinjuku.",
           "zh": "唐吉诃德 · 新宿店",
+          "jp": "ドン・キホーテ新宿店",
           "chunks": "Don Quijote / Shinjuku.",
           "tip": "日本知名折扣杂货店；品牌有多家分店，地图核对 Shinjuku 店地址。",
           "city": "Tokyo",
@@ -839,6 +932,7 @@
           "id": "tk-sushi-bar",
           "en": "Sushi restaurant in Ginza.",
           "zh": "银座寿司店",
+          "jp": "銀座の寿司屋",
           "chunks": "Sushi restaurant / in Ginza.",
           "tip": "银座以高端寿司闻名；用这句问路时最好同时展示具体店名。",
           "city": "Tokyo",
@@ -853,6 +947,7 @@
           "id": "tk-city-name",
           "en": "Tokyo.",
           "zh": "东京",
+          "jp": "東京",
           "chunks": "Tokyo.",
           "tip": "东京的英文地名；地图只搜城市会得到大范围位置，叫车时还需填写酒店或具体目的地。",
           "city": "Tokyo",
@@ -867,6 +962,7 @@
           "id": "tk-tokyo-station",
           "en": "Tokyo Station.",
           "zh": "东京站",
+          "jp": "東京駅",
           "chunks": "Tokyo / Station.",
           "tip": "东京核心枢纽站；站内有多条线路，地图需确认具体出口和线路。",
           "city": "Tokyo",
@@ -878,8 +974,7 @@
           "audio": ""
         }
       ],
-      "dialogue": [],
-      "number": 6
+      "dialogue": []
     },
     {
       "id": "places-osaka",
@@ -892,6 +987,7 @@
           "id": "os-dotonbori",
           "en": "Dotonbori.",
           "zh": "道顿堀",
+          "jp": "道頓堀",
           "chunks": "Dotonbori.",
           "tip": "大阪最热闹的美食娱乐街区；地图搜 Dotonbori Osaka 定位，具体店铺另选。",
           "city": "Osaka",
@@ -906,6 +1002,7 @@
           "id": "os-castle",
           "en": "Osaka Castle.",
           "zh": "大阪城",
+          "jp": "大阪城",
           "chunks": "Osaka / Castle.",
           "tip": "大阪地标城堡；公园面积大，地图确认天守阁入口和最近的地铁站。",
           "city": "Osaka",
@@ -920,6 +1017,7 @@
           "id": "os-shinsaibashi",
           "en": "Shinsaibashi Shopping Street.",
           "zh": "心斋桥筋商店街",
+          "jp": "心斎橋商店街",
           "chunks": "Shinsaibashi / Shopping Street.",
           "tip": "大阪知名拱顶商店街；地图搜完整名称，避免只搜 Shinsaibashi 定位到车站。",
           "city": "Osaka",
@@ -934,6 +1032,7 @@
           "id": "os-tsutenkaku",
           "en": "Tsutenkaku Tower.",
           "zh": "通天阁",
+          "jp": "通天閣",
           "chunks": "Tsutenkaku / Tower.",
           "tip": "新世界商圈的标志塔；地图搜 Tsutenkaku 定位塔和周边美食街。",
           "city": "Osaka",
@@ -948,6 +1047,7 @@
           "id": "os-umeda",
           "en": "Umeda.",
           "zh": "梅田",
+          "jp": "梅田",
           "chunks": "Umeda.",
           "tip": "大阪北部核心商圈和交通枢纽；地图搜 Umeda Osaka，具体商场另选。",
           "city": "Osaka",
@@ -962,6 +1062,7 @@
           "id": "os-aquarium",
           "en": "Osaka Aquarium Kaiyukan.",
           "zh": "大阪海游馆",
+          "jp": "海遊館",
           "chunks": "Osaka Aquarium / Kaiyukan.",
           "tip": "世界最大水族馆之一；地图搜 Kaiyukan 定位馆址，确认最近的地铁站。",
           "city": "Osaka",
@@ -976,6 +1077,7 @@
           "id": "os-namba",
           "en": "Namba.",
           "zh": "难波",
+          "jp": "難波",
           "chunks": "Namba.",
           "tip": "大阪南部核心商圈和交通枢纽；地图搜 Namba Osaka 定位区域。",
           "city": "Osaka",
@@ -990,6 +1092,7 @@
           "id": "os-takoyaki",
           "en": "Takoyaki restaurant in Dotonbori.",
           "zh": "道顿堀章鱼烧店",
+          "jp": "道頓堀のたこ焼き屋",
           "chunks": "Takoyaki restaurant / in Dotonbori.",
           "tip": "章鱼烧是大阪名物；用这句问路时最好同时展示具体店名。",
           "city": "Osaka",
@@ -1004,6 +1107,7 @@
           "id": "os-kuromon",
           "en": "Kuromon Market.",
           "zh": "黑门市场",
+          "jp": "黒門市場",
           "chunks": "Kuromon / Market.",
           "tip": "大阪的传统食品市场；地图搜 Kuromon Market 定位入口。",
           "city": "Osaka",
@@ -1018,6 +1122,7 @@
           "id": "os-city-name",
           "en": "Osaka.",
           "zh": "大阪",
+          "jp": "大阪",
           "chunks": "Osaka.",
           "tip": "大阪的英文地名；地图只搜城市不能替代具体酒店、车站或商场地址。",
           "city": "Osaka",
@@ -1032,6 +1137,7 @@
           "id": "os-universal",
           "en": "Universal Studios Japan.",
           "zh": "日本环球影城",
+          "jp": "ユニバーサル・スタジオ・ジャパン",
           "chunks": "Universal Studios / Japan.",
           "tip": "大阪知名主题乐园；地图搜 USJ 或完整名称，确认最近的车站。",
           "city": "Osaka",
@@ -1043,8 +1149,7 @@
           "audio": ""
         }
       ],
-      "dialogue": [],
-      "number": 7
+      "dialogue": []
     },
     {
       "id": "places-kyoto",
@@ -1057,6 +1162,7 @@
           "id": "ky-kiyomizu",
           "en": "Kiyomizu-dera Temple.",
           "zh": "清水寺",
+          "jp": "清水寺",
           "chunks": "Kiyomizu-dera / Temple.",
           "tip": "京都最著名的寺庙之一；地图搜完整名称，从清水坂步行上山约 10 分钟。",
           "city": "Kyoto",
@@ -1071,6 +1177,7 @@
           "id": "ky-kinkakuji",
           "en": "Kinkaku-ji Temple.",
           "zh": "金阁寺",
+          "jp": "金閣寺",
           "chunks": "Kinkaku-ji / Temple.",
           "tip": "金色舍利殿是标志性景观；地图搜 Kinkaku-ji 定位，最近的公交站需单独确认。",
           "city": "Kyoto",
@@ -1085,6 +1192,7 @@
           "id": "ky-fushimi-inari",
           "en": "Fushimi Inari Taisha.",
           "zh": "伏见稻荷大社",
+          "jp": "伏見稲荷大社",
           "chunks": "Fushimi Inari / Taisha.",
           "tip": "以千本鸟居闻名的神社；地图搜 Fushimi Inari Taisha 定位，最近车站是稻荷站。",
           "city": "Kyoto",
@@ -1099,6 +1207,7 @@
           "id": "ky-gion",
           "en": "Gion.",
           "zh": "祇园",
+          "jp": "祇園",
           "chunks": "Gion.",
           "tip": "京都传统花街区域；地图搜 Gion Kyoto 定位街区，具体店铺另选。",
           "city": "Kyoto",
@@ -1113,6 +1222,7 @@
           "id": "ky-arashiyama",
           "en": "Arashiyama Bamboo Grove.",
           "zh": "岚山竹林",
+          "jp": "嵐山竹林",
           "chunks": "Arashiyama / Bamboo Grove.",
           "tip": "京都西部的竹林小径；地图搜 Bamboo Grove 定位步道入口，岚山区域很大。",
           "city": "Kyoto",
@@ -1127,6 +1237,7 @@
           "id": "ky-nishiki",
           "en": "Nishiki Market.",
           "zh": "锦市场",
+          "jp": "錦市場",
           "chunks": "Nishiki / Market.",
           "tip": "京都的传统食品市场；被称为京都的厨房，地图搜 Nishiki Market 定位入口。",
           "city": "Kyoto",
@@ -1141,6 +1252,7 @@
           "id": "ky-kyoto-station",
           "en": "Kyoto Station.",
           "zh": "京都站",
+          "jp": "京都駅",
           "chunks": "Kyoto / Station.",
           "tip": "京都核心交通枢纽；站内有巴士总站和多条线路，地图需确认具体出口。",
           "city": "Kyoto",
@@ -1155,6 +1267,7 @@
           "id": "ky-ginkakuji",
           "en": "Ginkaku-ji Temple.",
           "zh": "银阁寺",
+          "jp": "銀閣寺",
           "chunks": "Ginkaku-ji / Temple.",
           "tip": "与金阁寺相对的银阁寺；地图搜 Ginkaku-ji 定位，从哲学之道步行可达。",
           "city": "Kyoto",
@@ -1169,6 +1282,7 @@
           "id": "ky-matcha",
           "en": "Matcha sweets.",
           "zh": "抹茶甜点",
+          "jp": "抹茶スイーツ",
           "chunks": "Matcha / sweets.",
           "tip": "京都是抹茶名产地；这是商品类别，可以拿给店员询问。",
           "city": "Kyoto",
@@ -1182,6 +1296,7 @@
           "id": "ky-yuba",
           "en": "Yuba.",
           "zh": "汤叶（豆皮）",
+          "jp": "湯葉",
           "chunks": "Yuba.",
           "tip": "京都名物汤叶；可用来询问餐厅是否有相关料理或伴手礼。",
           "city": "Kyoto",
@@ -1195,6 +1310,7 @@
           "id": "ky-city-name",
           "en": "Kyoto.",
           "zh": "京都",
+          "jp": "京都",
           "chunks": "Kyoto.",
           "tip": "京都的英文地名；地图只搜城市不能替代具体酒店、车站或景点地址。",
           "city": "Kyoto",
@@ -1206,8 +1322,7 @@
           "audio": ""
         }
       ],
-      "dialogue": [],
-      "number": 8
+      "dialogue": []
     },
     {
       "id": "food",
@@ -1220,6 +1335,7 @@
           "id": "food-1",
           "en": "A table for two, please.",
           "zh": "麻烦安排两人位。",
+          "jp": "二人です，お願いします。",
           "chunks": "A table for two, / please.",
           "tip": "按实际人数替换数量。",
           "audio": ""
@@ -1228,6 +1344,7 @@
           "id": "food-2",
           "en": "Could I see the menu, please?",
           "zh": "可以给我看一下菜单吗？",
+          "jp": "メニューを見せていただけますか？",
           "chunks": "Could I see / the menu, please?",
           "tip": "",
           "audio": ""
@@ -1236,6 +1353,7 @@
           "id": "food-3",
           "en": "I'd like this one, please.",
           "zh": "我要这个，谢谢。",
+          "jp": "これを一つお願いします。",
           "chunks": "I'd like this one, / please.",
           "tip": "指着菜单或商品说，暂时不会菜名也能点。",
           "audio": ""
@@ -1244,6 +1362,7 @@
           "id": "food-4",
           "en": "Does this contain pork?",
           "zh": "这个里面有猪肉吗？",
+          "jp": "これに豚肉は入っていますか？",
           "chunks": "Does this / contain pork?",
           "tip": "问配料；可把 pork 换成你需要确认的食材。",
           "audio": ""
@@ -1252,6 +1371,7 @@
           "id": "food-5",
           "en": "I'm allergic to shellfish.",
           "zh": "我对贝类过敏。",
+          "jp": "貝類のアレルギーがあります。",
           "chunks": "I'm allergic / to shellfish.",
           "tip": "只有确实对贝类过敏才使用；也可换成自己的实际过敏原。",
           "audio": ""
@@ -1260,6 +1380,7 @@
           "id": "food-6",
           "en": "No raw fish, please.",
           "zh": "请不要放生鱼。",
+          "jp": "生魚はなしでお願いします。",
           "chunks": "No raw fish, / please.",
           "tip": "raw fish 是生鱼；不吃生食时用这句。",
           "audio": ""
@@ -1268,6 +1389,7 @@
           "id": "food-7",
           "en": "Could I have the bill, please?",
           "zh": "麻烦结账。",
+          "jp": "お会計をお願いします。",
           "chunks": "Could I have / the bill, please?",
           "tip": "在日本也可以说 \"Check, please.\" 或用日语 \"Okanou kudasai\"。",
           "audio": ""
@@ -1276,6 +1398,7 @@
           "id": "food-8",
           "en": "Could we have some water?",
           "zh": "可以给我们一些水吗？",
+          "jp": "お水をもらえますか？",
           "chunks": "Could we have / some water?",
           "tip": "",
           "audio": ""
@@ -1284,6 +1407,7 @@
           "id": "food-9",
           "en": "What would you recommend?",
           "zh": "您推荐点些什么？",
+          "jp": "おすすめは何ですか？",
           "chunks": "What would you / recommend?",
           "tip": "让店员推荐特色菜品。",
           "audio": ""
@@ -1292,6 +1416,7 @@
           "id": "food-10",
           "en": "How long is the wait for a table?",
           "zh": "等位大概要多久？",
+          "jp": "待ち時間はどのくらいですか？",
           "chunks": "How long is the wait / for a table?",
           "tip": "",
           "audio": ""
@@ -1300,6 +1425,7 @@
           "id": "food-11",
           "en": "Could we have this to take away?",
           "zh": "这个可以帮我们打包带走吗？",
+          "jp": "これをテイクアウトできますか？",
           "chunks": "Could we have this / to take away?",
           "tip": "take away 是带走。",
           "audio": ""
@@ -1308,6 +1434,7 @@
           "id": "food-12",
           "en": "Is the service charge included?",
           "zh": "这个价格包含服务费吗？",
+          "jp": "サービス料は含まれていますか？",
           "chunks": "Is the service charge / included?",
           "tip": "日本很多餐厅不收服务费，但确认一下更稳妥。",
           "audio": ""
@@ -1316,6 +1443,7 @@
           "id": "food-13",
           "en": "We didn't order this.",
           "zh": "我们没有点这个。",
+          "jp": "これは注文していません。",
           "chunks": "We didn't / order this.",
           "tip": "发现上错菜或账单项目不符时可以使用。",
           "audio": ""
@@ -1324,6 +1452,7 @@
           "id": "food-14",
           "en": "Does this menu have pictures?",
           "zh": "这个菜单有图片吗？",
+          "jp": "このメニューには写真がありますか？",
           "chunks": "Does this menu / have pictures?",
           "tip": "不会念菜名时，可以指着图片说 I'd like this one。",
           "audio": ""
@@ -1334,24 +1463,28 @@
           "role": "餐厅店员",
           "en": "How many people?",
           "zh": "几位用餐？",
+          "jp": "何名様ですか？",
           "audio": ""
         },
         {
           "role": "旅客",
           "en": "A table for two, please.",
           "zh": "两位，谢谢。",
+          "jp": "二人です，お願いします。",
           "audio": ""
         },
         {
           "role": "餐厅店员",
           "en": "Would you like still or sparkling water?",
           "zh": "您要普通水还是气泡水？",
+          "jp": "普通のお水か炭酸水はどちらになさいますか？",
           "audio": ""
         },
         {
           "role": "旅客",
           "en": "Still water, please.",
           "zh": "普通水，谢谢。",
+          "jp": "普通のお水をください。",
           "audio": ""
         }
       ]
@@ -1367,6 +1500,7 @@
           "id": "payments-1",
           "en": "Do you accept Alipay wallets from mainland China?",
           "zh": "这里能用中国大陆的支付宝钱包吗？",
+          "jp": "中国大陸のAlipayは使えますか？",
           "chunks": "Do you accept Alipay wallets / from mainland China?",
           "tip": "说明自己的钱包来自中国大陆，请店员确认是否受理。",
           "audio": ""
@@ -1375,6 +1509,7 @@
           "id": "payments-2",
           "en": "Can I pay with WeChat Pay?",
           "zh": "我可以用微信支付吗？",
+          "jp": "WeChat Payで払えますか？",
           "chunks": "Can I pay / with WeChat Pay?",
           "tip": "",
           "audio": ""
@@ -1383,6 +1518,7 @@
           "id": "payments-3",
           "en": "Can I scan this QR code to pay?",
           "zh": "我可以扫这个二维码付款吗？",
+          "jp": "このQRコードをスキャンして払えますか？",
           "chunks": "Can I scan / this QR code to pay?",
           "tip": "自己打开支付应用，扫店家的码。",
           "audio": ""
@@ -1391,6 +1527,7 @@
           "id": "payments-4",
           "en": "Could you scan my payment code?",
           "zh": "可以请您扫我的付款码吗？",
+          "jp": "私の支払いコードをスキャンしていただけますか？",
           "chunks": "Could you scan / my payment code?",
           "tip": "这次是给店员看自己的付款码，请对方扫码。",
           "audio": ""
@@ -1399,6 +1536,7 @@
           "id": "payments-5",
           "en": "Can I pay in cash?",
           "zh": "我可以用现金付款吗？",
+          "jp": "現金で払えますか？",
           "chunks": "Can I pay / in cash?",
           "tip": "日本许多小店只收现金，建议随身携带足够日元。",
           "audio": ""
@@ -1407,6 +1545,7 @@
           "id": "payments-6",
           "en": "Could you give me change, please?",
           "zh": "可以给我找零吗？",
+          "jp": "お釣りをもらえますか？",
           "chunks": "Could you give me / change, please?",
           "tip": "这里的 change 指找回的零钱。",
           "audio": ""
@@ -1415,6 +1554,7 @@
           "id": "payments-7",
           "en": "Could I have a receipt, please?",
           "zh": "可以给我一张收据吗？",
+          "jp": "レシートをいただけますか？",
           "chunks": "Could I have / a receipt, please?",
           "tip": "receipt 是付款收据。",
           "audio": ""
@@ -1423,6 +1563,7 @@
           "id": "payments-8",
           "en": "Do you accept credit cards issued in China?",
           "zh": "可以用中国发行的信用卡吗？",
+          "jp": "中国発行のクレジットカードは使えますか？",
           "chunks": "Do you accept credit cards / issued in China?",
           "tip": "credit card 是信用卡；发行地与支付网络需要分别说明。",
           "audio": ""
@@ -1431,6 +1572,7 @@
           "id": "payments-9",
           "en": "Do you accept UnionPay cards?",
           "zh": "这里受理银联卡吗？",
+          "jp": "銀聯カードは使えますか？",
           "chunks": "Do you accept / UnionPay cards?",
           "tip": "按自己卡面的标志问；不能把中国发行的卡都当成银联卡。",
           "audio": ""
@@ -1439,6 +1581,7 @@
           "id": "payments-10",
           "en": "Where's the nearest ATM?",
           "zh": "最近的取款机在哪里？",
+          "jp": "一番近いATMはどこですか？",
           "chunks": "Where's / the nearest ATM?",
           "tip": "日本便利店内的 ATM 通常支持外卡取现。",
           "audio": ""
@@ -1447,6 +1590,7 @@
           "id": "payments-11",
           "en": "Does this ATM charge a withdrawal fee?",
           "zh": "这台取款机取钱要收手续费吗？",
+          "jp": "このATMは手数料がかかりますか？",
           "chunks": "Does this ATM charge / a withdrawal fee?",
           "tip": "问这台 ATM 收取的费用；自己的发卡行费用需另行确认。",
           "audio": ""
@@ -1455,6 +1599,7 @@
           "id": "payments-12",
           "en": "Is this amount in yen or renminbi?",
           "zh": "这个金额是日元还是人民币？",
+          "jp": "この金額は円ですか、それとも人民元ですか？",
           "chunks": "Is this amount / in yen or renminbi?",
           "tip": "yen 是日元；renminbi 是人民币。",
           "audio": ""
@@ -1463,6 +1608,7 @@
           "id": "payments-13",
           "en": "Can I pay in Japanese yen?",
           "zh": "我可以用日元支付吗？",
+          "jp": "日本円で払えますか？",
           "chunks": "Can I pay / in Japanese yen?",
           "tip": "用于确认付款币种，不表示任何汇率或费用承诺。",
           "audio": ""
@@ -1471,6 +1617,7 @@
           "id": "payments-14",
           "en": "How much does this cost?",
           "zh": "这个要多少钱？",
+          "jp": "これはいくらですか？",
           "chunks": "How much / does this cost?",
           "tip": "",
           "audio": ""
@@ -1479,6 +1626,7 @@
           "id": "payments-15",
           "en": "Is there a tax-free refund?",
           "zh": "有免税退税吗？",
+          "jp": "免税はありますか？",
           "chunks": "Is there a / tax-free refund?",
           "tip": "日本对外国游客有免税政策，需出示护照并满足最低消费额。",
           "audio": ""
@@ -1489,24 +1637,28 @@
           "role": "旅客",
           "en": "Do you accept Alipay wallets from mainland China?",
           "zh": "这里能用中国大陆的支付宝钱包吗？",
+          "jp": "中国大陸のAlipayは使えますか？",
           "audio": ""
         },
         {
           "role": "店员",
           "en": "I'm sorry, cash only here.",
           "zh": "抱歉，这里只收现金。",
+          "jp": "申し訳ありません、こちらは現金のみです。",
           "audio": ""
         },
         {
           "role": "旅客",
           "en": "OK. Can I pay in cash?",
           "zh": "好的，我付现金。",
+          "jp": "わかりました。現金で払えますか？",
           "audio": ""
         },
         {
           "role": "店员",
           "en": "Yes. Please pay at the counter.",
           "zh": "可以，请到收银台付款。",
+          "jp": "はい。レジでお支払いください。",
           "audio": ""
         }
       ]
@@ -1522,6 +1674,7 @@
           "id": "shopping-1",
           "en": "How much is this?",
           "zh": "这个多少钱？",
+          "jp": "これはいくらですか？",
           "chunks": "How much / is this?",
           "tip": "",
           "audio": ""
@@ -1530,6 +1683,7 @@
           "id": "shopping-2",
           "en": "Can I pay by card?",
           "zh": "可以刷卡吗？",
+          "jp": "カードで払えますか？",
           "chunks": "Can I pay / by card?",
           "tip": "",
           "audio": ""
@@ -1538,6 +1692,7 @@
           "id": "shopping-3",
           "en": "Can I return this?",
           "zh": "这个可以退货吗？",
+          "jp": "これは返品できますか？",
           "chunks": "Can I / return this?",
           "tip": "先询问商家的退货条件，不代表一定可以退。",
           "audio": ""
@@ -1546,6 +1701,7 @@
           "id": "shopping-4",
           "en": "I don't understand.",
           "zh": "我没听懂。",
+          "jp": "わかりません。",
           "chunks": "I don't / understand.",
           "tip": "可以接第一课的\"请说慢一点\"或\"请再说一遍\"。",
           "audio": ""
@@ -1554,6 +1710,7 @@
           "id": "shopping-5",
           "en": "Could you write it down, please?",
           "zh": "可以帮我写下来吗？",
+          "jp": "書いていただけますか？",
           "chunks": "Could you / write it down, please?",
           "tip": "听不清价格、地址或时间时很好用。",
           "audio": ""
@@ -1562,6 +1719,7 @@
           "id": "shopping-6",
           "en": "I've lost my phone.",
           "zh": "我的手机丢了。",
+          "jp": "スマートフォンをなくしました。",
           "chunks": "I've lost / my phone.",
           "tip": "向服务台说明问题；phone 可以换成 bag 或 passport。",
           "audio": ""
@@ -1570,6 +1728,7 @@
           "id": "shopping-7",
           "en": "I'd like to go to the airport, please.",
           "zh": "我想去机场。",
+          "jp": "空港に行きたいです。",
           "chunks": "I'd like to go / to the airport, please.",
           "tip": "同时给对方看航班对应的机场和航站楼名称。",
           "audio": ""
@@ -1578,6 +1737,7 @@
           "id": "shopping-8",
           "en": "Where's my boarding gate?",
           "zh": "我的登机口在哪里？",
+          "jp": "搭乗ゲートはどこですか？",
           "chunks": "Where's / my boarding gate?",
           "tip": "把登机牌给工作人员看，确认当前登机口。",
           "audio": ""
@@ -1586,6 +1746,7 @@
           "id": "shopping-9",
           "en": "Where can we buy local souvenirs?",
           "zh": "我们去哪里买当地特产或纪念品？",
+          "jp": "お土産はどこで買えますか？",
           "chunks": "Where can we buy / local souvenirs?",
           "tip": "souvenirs 是伴手礼或纪念品。",
           "audio": ""
@@ -1594,6 +1755,7 @@
           "id": "shopping-10",
           "en": "Do you sell this here?",
           "zh": "你们这里卖这个吗？",
+          "jp": "これはここで売っていますか？",
           "chunks": "Do you sell / this here?",
           "tip": "同时展示商品名称或图片。",
           "audio": ""
@@ -1602,6 +1764,7 @@
           "id": "shopping-11",
           "en": "Is this made in Japan?",
           "zh": "这个是日本制造的吗？",
+          "jp": "これは日本製ですか？",
           "chunks": "Is this made / in Japan?",
           "tip": "可看包装产地并询问店员。",
           "audio": ""
@@ -1610,6 +1773,7 @@
           "id": "shopping-12",
           "en": "What's the expiry date?",
           "zh": "保质期到什么时候？",
+          "jp": "賞味期限はいつですか？",
           "chunks": "What's / the expiry date?",
           "tip": "购买食品时询问，日期以包装标示为准。",
           "audio": ""
@@ -1618,6 +1782,7 @@
           "id": "shopping-13",
           "en": "Could you pack these for travel?",
           "zh": "可以帮我把这些打包好带走吗？",
+          "jp": "これを旅行用に梱包していただけますか？",
           "chunks": "Could you pack these / for travel?",
           "tip": "包装不代表满足航司或入境携带规定，需要另行确认。",
           "audio": ""
@@ -1628,24 +1793,28 @@
           "role": "旅客",
           "en": "How much is this?",
           "zh": "这个多少钱？",
+          "jp": "これはいくらですか？",
           "audio": ""
         },
         {
           "role": "店员",
           "en": "It's three thousand yen.",
           "zh": "三千日元。",
+          "jp": "三千円です。",
           "audio": ""
         },
         {
           "role": "旅客",
           "en": "Can I pay by card?",
           "zh": "可以刷卡吗？",
+          "jp": "カードで払えますか？",
           "audio": ""
         },
         {
           "role": "店员",
           "en": "Yes. Please tap your card here.",
           "zh": "可以，请在这里感应您的卡。",
+          "jp": "はい。こちらでカードをタッチしてください。",
           "audio": ""
         }
       ]
@@ -1661,6 +1830,7 @@
           "id": "hotel-1",
           "en": "I have a booking.",
           "zh": "我有预订。",
+          "jp": "予約しています。",
           "chunks": "I have / a booking.",
           "tip": "",
           "audio": ""
@@ -1669,6 +1839,7 @@
           "id": "hotel-2",
           "en": "I'd like to check in, please.",
           "zh": "我想办理入住。",
+          "jp": "チェックインをお願いします。",
           "chunks": "I'd like to / check in, please.",
           "tip": "check in 是办理入住，check out 是退房。",
           "audio": ""
@@ -1677,6 +1848,7 @@
           "id": "hotel-3",
           "en": "Can I leave my bags here?",
           "zh": "我可以把行李寄存在这里吗？",
+          "jp": "荷物を預けることはできますか？",
           "chunks": "Can I leave / my bags here?",
           "tip": "",
           "audio": ""
@@ -1685,6 +1857,7 @@
           "id": "hotel-4",
           "en": "What time is check-out?",
           "zh": "几点前需要退房？",
+          "jp": "チェックアウトは何時ですか？",
           "chunks": "What time / is check-out?",
           "tip": "",
           "audio": ""
@@ -1693,6 +1866,7 @@
           "id": "hotel-5",
           "en": "What's the Wi-Fi password?",
           "zh": "Wi-Fi 密码是什么？",
+          "jp": "Wi-Fiのパスワードは何ですか？",
           "chunks": "What's / the Wi-Fi password?",
           "tip": "",
           "audio": ""
@@ -1701,6 +1875,7 @@
           "id": "hotel-6",
           "en": "Could I have some towels, please?",
           "zh": "可以给我几条毛巾吗？",
+          "jp": "タオルをもらえますか？",
           "chunks": "Could I have / some towels, please?",
           "tip": "按实际需要的数量提出请求。",
           "audio": ""
@@ -1709,6 +1884,7 @@
           "id": "hotel-7",
           "en": "The air conditioning isn't working.",
           "zh": "空调不能正常使用。",
+          "jp": "エアコンが動きません。",
           "chunks": "The air conditioning / isn't working.",
           "tip": "",
           "audio": ""
@@ -1717,6 +1893,7 @@
           "id": "hotel-8",
           "en": "Could I check out later?",
           "zh": "我可以晚一点退房吗？",
+          "jp": "チェックアウトを遅らせることはできますか？",
           "chunks": "Could I / check out later?",
           "tip": "这是询问；是否可延迟、是否收费，以酒店答复为准。",
           "audio": ""
@@ -1727,24 +1904,28 @@
           "role": "旅客",
           "en": "I'd like to check in, please.",
           "zh": "我想办理入住。",
+          "jp": "チェックインをお願いします。",
           "audio": ""
         },
         {
           "role": "酒店前台",
           "en": "May I have your passport, please?",
           "zh": "麻烦出示一下您的护照。",
+          "jp": "パスポートをご提示ください。",
           "audio": ""
         },
         {
           "role": "旅客",
           "en": "Sure. Here you are.",
           "zh": "好的，给您。",
+          "jp": "はい、どうぞ。",
           "audio": ""
         },
         {
           "role": "酒店前台",
           "en": "Thank you. Let me check your booking.",
           "zh": "谢谢，我查一下您的预订。",
+          "jp": "ありがとうございます。ご予約を確認します。",
           "audio": ""
         }
       ]
@@ -1760,6 +1941,7 @@
           "id": "island-1",
           "en": "Where's the hot spring?",
           "zh": "温泉在哪里？",
+          "jp": "温泉はどこですか？",
           "chunks": "Where's / the hot spring?",
           "tip": "hot spring 是温泉；日语称 onsen。",
           "audio": ""
@@ -1768,6 +1950,7 @@
           "id": "island-2",
           "en": "What are the rules for the hot spring?",
           "zh": "温泉有什么规则？",
+          "jp": "温泉のルールは何ですか？",
           "chunks": "What are the rules / for the hot spring?",
           "tip": "日本温泉通常要求先冲洗身体再入池，且不能穿泳衣。",
           "audio": ""
@@ -1776,6 +1959,7 @@
           "id": "island-3",
           "en": "Do I need to shower before entering?",
           "zh": "入池前需要先冲洗吗？",
+          "jp": "入る前にシャワーを浴びる必要がありますか？",
           "chunks": "Do I need to / shower before entering?",
           "tip": "日本温泉礼仪要求入池前先冲洗身体。",
           "audio": ""
@@ -1784,6 +1968,7 @@
           "id": "island-4",
           "en": "Can I wear a swimsuit in the hot spring?",
           "zh": "可以在温泉里穿泳衣吗？",
+          "jp": "温泉で水着を着てもいいですか？",
           "chunks": "Can I wear a swimsuit / in the hot spring?",
           "tip": "多数日本温泉不允许穿泳衣，但混浴设施可能例外。",
           "audio": ""
@@ -1792,6 +1977,7 @@
           "id": "island-5",
           "en": "Is there a tattoo policy?",
           "zh": "有纹身规定吗？",
+          "jp": "タトゥーの規定はありますか？",
           "chunks": "Is there a / tattoo policy?",
           "tip": "许多日本温泉不允许有纹身者入浴，建议提前确认。",
           "audio": ""
@@ -1800,6 +1986,7 @@
           "id": "island-6",
           "en": "What time does the hiking trail start?",
           "zh": "徒步路线几点可以出发？",
+          "jp": "ハイキングコースは何時から始められますか？",
           "chunks": "What time / does the hiking trail start?",
           "tip": "hiking trail 是徒步步道；确认开放时间和天气状况。",
           "audio": ""
@@ -1808,6 +1995,7 @@
           "id": "island-7",
           "en": "Is this trail suitable for beginners?",
           "zh": "这条路线适合新手吗？",
+          "jp": "このコースは初心者向けですか？",
           "chunks": "Is this trail / suitable for beginners?",
           "tip": "beginners 是初学者；确认路线难度后再出发。",
           "audio": ""
@@ -1816,6 +2004,7 @@
           "id": "island-8",
           "en": "I need help, please!",
           "zh": "请帮帮我！",
+          "jp": "助けてください！",
           "chunks": "I need help, / please!",
           "tip": "需要马上求助时，也可以直接喊\"Help!\"。",
           "audio": ""
@@ -1824,6 +2013,7 @@
           "id": "island-9",
           "en": "Where's the meeting point?",
           "zh": "集合地点在哪里？",
+          "jp": "集合場所はどこですか？",
           "chunks": "Where's / the meeting point?",
           "tip": "",
           "audio": ""
@@ -1832,6 +2022,7 @@
           "id": "island-10",
           "en": "I can't swim.",
           "zh": "我不会游泳。",
+          "jp": "泳げません。",
           "chunks": "I can't / swim.",
           "tip": "在涉水活动前明确告知工作人员。",
           "audio": ""
@@ -1842,24 +2033,28 @@
           "role": "温泉前台",
           "en": "Have you visited a Japanese hot spring before?",
           "zh": "您之前去过日本温泉吗？",
+          "jp": "日本の温泉に入ったことはありますか？",
           "audio": ""
         },
         {
           "role": "旅客",
           "en": "No, this is my first time. What are the rules?",
           "zh": "没有，第一次。有什么规则？",
+          "jp": "いいえ、初めてです。ルールは何ですか？",
           "audio": ""
         },
         {
           "role": "温泉前台",
           "en": "Please shower before entering. No swimsuits allowed.",
           "zh": "入池前请先冲洗。不能穿泳衣。",
+          "jp": "入る前にシャワーを浴びてください。水着は禁止です。",
           "audio": ""
         },
         {
           "role": "旅客",
           "en": "Got it. Thank you.",
           "zh": "明白了，谢谢。",
+          "jp": "わかりました。ありがとうございます。",
           "audio": ""
         }
       ]
@@ -1875,6 +2070,7 @@
           "id": "water-safety-1",
           "en": "Help!",
           "zh": "救命！",
+          "jp": "助けて！",
           "chunks": "Help!",
           "tip": "紧急情况下大声呼喊，吸引周围人注意。",
           "urgent": true,
@@ -1884,6 +2080,7 @@
           "id": "water-safety-2",
           "en": "Please call the police.",
           "zh": "请报警。",
+          "jp": "警察を呼んでください。",
           "chunks": "Please call / the police.",
           "tip": "日本警察紧急电话为 110。",
           "urgent": true,
@@ -1893,6 +2090,7 @@
           "id": "water-safety-3",
           "en": "Please call an ambulance.",
           "zh": "请叫救护车。",
+          "jp": "救急車を呼んでください。",
           "chunks": "Please call / an ambulance.",
           "tip": "日本救护车紧急电话为 119。",
           "urgent": true,
@@ -1902,6 +2100,7 @@
           "id": "water-safety-4",
           "en": "I've been robbed.",
           "zh": "我被抢了。",
+          "jp": "強盗に遭いました。",
           "chunks": "I've been / robbed.",
           "tip": "向警方说明被抢情况。",
           "urgent": true,
@@ -1911,6 +2110,7 @@
           "id": "water-safety-5",
           "en": "I've lost my passport.",
           "zh": "我的护照丢了。",
+          "jp": "パスポートをなくしました。",
           "chunks": "I've lost / my passport.",
           "tip": "向酒店或警局报失，联系本国大使馆补办。",
           "urgent": false,
@@ -1920,6 +2120,7 @@
           "id": "water-safety-6",
           "en": "Someone is following me.",
           "zh": "有人在跟踪我。",
+          "jp": "誰かがついてきています。",
           "chunks": "Someone is / following me.",
           "tip": "感到不安全时向附近工作人员或警察求助。",
           "urgent": true,
@@ -1929,6 +2130,7 @@
           "id": "water-safety-7",
           "en": "Please stay with me.",
           "zh": "请陪着我。",
+          "jp": "一緒にいてください。",
           "chunks": "Please stay / with me.",
           "tip": "向身边可靠的人表达需要陪伴。",
           "urgent": false,
@@ -1938,6 +2140,7 @@
           "id": "water-safety-8",
           "en": "Where's the police station?",
           "zh": "警察局在哪里？",
+          "jp": "交番はどこですか？",
           "chunks": "Where's / the police station?",
           "tip": "日本警察局称为 koban（交番），在街头常见。",
           "urgent": false,
@@ -1947,6 +2150,7 @@
           "id": "water-safety-9",
           "en": "I need to contact my embassy.",
           "zh": "我需要联系大使馆。",
+          "jp": "大使館に連絡する必要があります。",
           "chunks": "I need to / contact my embassy.",
           "tip": "embassy 是大使馆；紧急情况可请酒店或警察协助联系。",
           "urgent": false,
@@ -1956,6 +2160,7 @@
           "id": "water-safety-10",
           "en": "Can you help me find my way?",
           "zh": "可以帮我找到路吗？",
+          "jp": "道を教えていただけますか？",
           "chunks": "Can you help me / find my way?",
           "tip": "迷路时向路人或交番求助。",
           "urgent": false,
@@ -1965,6 +2170,7 @@
           "id": "water-safety-11",
           "en": "Is this area safe at night?",
           "zh": "这个区域晚上安全吗？",
+          "jp": "このエリアは夜安全ですか？",
           "chunks": "Is this area / safe at night?",
           "tip": "出发前向酒店或当地人确认治安情况。",
           "urgent": false,
@@ -1974,6 +2180,7 @@
           "id": "water-safety-12",
           "en": "There's been an accident.",
           "zh": "发生了事故。",
+          "jp": "事故がありました。",
           "chunks": "There's been / an accident.",
           "tip": "向警方或急救人员描述事故情况。",
           "urgent": true,
@@ -1983,6 +2190,7 @@
           "id": "water-safety-13",
           "en": "I need to report a crime.",
           "zh": "我要报案。",
+          "jp": "被害届を出したいです。",
           "chunks": "I need to / report a crime.",
           "tip": "前往交番或警察局说明情况。",
           "urgent": false,
@@ -1992,6 +2200,7 @@
           "id": "water-safety-14",
           "en": "Could you contact my family for me?",
           "zh": "可以帮我联系家人吗？",
+          "jp": "家族に連絡していただけますか？",
           "chunks": "Could you contact / my family for me?",
           "tip": "紧急情况下请工作人员或警方代为联系。",
           "urgent": false,
@@ -2003,24 +2212,28 @@
           "role": "旅客",
           "en": "Please call the police.",
           "zh": "请报警。",
+          "jp": "警察を呼んでください。",
           "audio": ""
         },
         {
           "role": "路人",
           "en": "What happened?",
           "zh": "发生什么事了？",
+          "jp": "どうしましたか？",
           "audio": ""
         },
         {
           "role": "旅客",
           "en": "I've lost my passport.",
           "zh": "我的护照丢了。",
+          "jp": "パスポートをなくしました。",
           "audio": ""
         },
         {
           "role": "路人",
           "en": "Let me take you to the nearest koban.",
           "zh": "我带你去最近的交番。",
+          "jp": "一番近い交番にお連れします。",
           "audio": ""
         }
       ]
@@ -2036,6 +2249,7 @@
           "id": "medical-help-1",
           "en": "Help! I can't breathe!",
           "zh": "救命！我无法呼吸！",
+          "jp": "助けて！息ができない！",
           "chunks": "Help! / I can't breathe!",
           "tip": "紧急求助用语；按真实情况使用。",
           "urgent": true,
@@ -2045,6 +2259,7 @@
           "id": "medical-help-2",
           "en": "Call an ambulance, please!",
           "zh": "请叫救护车！",
+          "jp": "救急車を呼んでください！",
           "chunks": "Call an ambulance, / please!",
           "tip": "ambulance 是救护车。日本紧急求助电话：警察 110，救护车与火警 119。",
           "urgent": true,
@@ -2054,6 +2269,7 @@
           "id": "medical-help-3",
           "en": "My friend is unconscious.",
           "zh": "我的朋友失去意识了。",
+          "jp": "連れが意識を失っています。",
           "chunks": "My friend / is unconscious.",
           "tip": "unconscious 指失去意识；如果只能确认没有回应，可说 My friend isn't responding。",
           "urgent": true,
@@ -2063,6 +2279,7 @@
           "id": "medical-help-4",
           "en": "I need a doctor.",
           "zh": "我需要医生。",
+          "jp": "医者が必要です。",
           "chunks": "I need / a doctor.",
           "tip": "对酒店、向导或工作人员表达需要医疗帮助。",
           "urgent": true,
@@ -2072,6 +2289,7 @@
           "id": "medical-help-5",
           "en": "I feel nauseous.",
           "zh": "我恶心，想吐。",
+          "jp": "吐き気がします。",
           "chunks": "I feel / nauseous.",
           "tip": "nauseous 表示恶心、想吐，不等于已经吐了。",
           "urgent": false,
@@ -2081,6 +2299,7 @@
           "id": "medical-help-6",
           "en": "I feel dizzy.",
           "zh": "我头晕。",
+          "jp": "めまいがします。",
           "chunks": "I feel / dizzy.",
           "tip": "描述感受即可，不用先判断头晕的原因。",
           "urgent": false,
@@ -2090,6 +2309,7 @@
           "id": "medical-help-7",
           "en": "I've been vomiting.",
           "zh": "我一直在呕吐。",
+          "jp": "ずっと吐いています。",
           "chunks": "I've been / vomiting.",
           "tip": "适用于已经反复呕吐；如果只吐过一次，可说 I vomited once。",
           "urgent": false,
@@ -2099,6 +2319,7 @@
           "id": "medical-help-8",
           "en": "It hurts here.",
           "zh": "这里痛。",
+          "jp": "ここが痛いです。",
           "chunks": "It hurts / here.",
           "tip": "说 here 时指明实际疼痛的位置。",
           "urgent": false,
@@ -2108,6 +2329,7 @@
           "id": "medical-help-9",
           "en": "I have a fever.",
           "zh": "我发烧了。",
+          "jp": "熱があります。",
           "chunks": "I have / a fever.",
           "tip": "fever 是发烧；可用手摸额头配合表达。",
           "urgent": false,
@@ -2117,6 +2339,7 @@
           "id": "medical-help-10",
           "en": "I have a rash.",
           "zh": "我起皮疹了。",
+          "jp": "発疹が出ました。",
           "chunks": "I have / a rash.",
           "tip": "rash 是皮疹；说明看到的皮肤变化，不用猜原因。",
           "urgent": false,
@@ -2126,6 +2349,7 @@
           "id": "medical-help-11",
           "en": "I'm allergic to this medicine.",
           "zh": "我对这个药过敏。",
+          "jp": "この薬にアレルギーがあります。",
           "chunks": "I'm allergic / to this medicine.",
           "tip": "只有已知自己对该药过敏才使用；this medicine 可对应药名或清单。",
           "urgent": false,
@@ -2135,6 +2359,7 @@
           "id": "medical-help-12",
           "en": "I fell and hurt my leg.",
           "zh": "我摔倒伤到了腿。",
+          "jp": "転んで足を怪我しました。",
           "chunks": "I fell and hurt / my leg.",
           "tip": "按实际受伤部位替换 leg。",
           "urgent": true,
@@ -2144,6 +2369,7 @@
           "id": "medical-help-13",
           "en": "I have a stomach ache.",
           "zh": "我肚子痛。",
+          "jp": "お腹が痛いです。",
           "chunks": "I have / a stomach ache.",
           "tip": "按实际情况说明疼痛和其他症状。",
           "urgent": false,
@@ -2153,6 +2379,7 @@
           "id": "medical-help-14",
           "en": "I have a headache.",
           "zh": "我头痛。",
+          "jp": "頭が痛いです。",
           "chunks": "I have / a headache.",
           "tip": "headache 是头痛。",
           "urgent": false,
@@ -2162,6 +2389,7 @@
           "id": "medical-help-15",
           "en": "I don't feel well.",
           "zh": "我不舒服。",
+          "jp": "具合が悪いです。",
           "chunks": "I don't / feel well.",
           "tip": "还说不清具体症状时，先用这句求助。",
           "urgent": false,
@@ -2171,6 +2399,7 @@
           "id": "medical-help-16",
           "en": "Could you help us get to a hospital?",
           "zh": "可以帮我们前往医院吗？",
+          "jp": "病院まで連れて行っていただけますか？",
           "chunks": "Could you help us / get to a hospital?",
           "tip": "hospital 是医院；需要诊所时可把 hospital 换成 clinic。",
           "urgent": false,
@@ -2182,24 +2411,28 @@
           "role": "旅客",
           "en": "I don't feel well. I have a fever.",
           "zh": "我不舒服，发烧了。",
+          "jp": "具合が悪いです。熱があります。",
           "audio": ""
         },
         {
           "role": "酒店前台",
           "en": "Let me call a doctor for you.",
           "zh": "我帮您叫医生。",
+          "jp": "医者を呼びます。",
           "audio": ""
         },
         {
           "role": "旅客",
           "en": "Thank you. Could you help me get to a hospital?",
           "zh": "谢谢。可以帮我前往医院吗？",
+          "jp": "ありがとうございます。病院まで連れて行っていただけますか？",
           "audio": ""
         },
         {
           "role": "酒店前台",
           "en": "I'll arrange a taxi to the nearest hospital right away.",
           "zh": "我马上安排出租车去最近的医院。",
+          "jp": "すぐに一番近い病院までタクシーを手配します。",
           "audio": ""
         }
       ]
@@ -2215,6 +2448,7 @@
           "id": "room-safety-1",
           "en": "There's a large insect in our room.",
           "zh": "我们房间里有一只大虫子。",
+          "jp": "部屋に大きな虫がいます。",
           "chunks": "There's a large insect / in our room.",
           "tip": "不知道虫子的名称时，用 large insect 即可，不猜具体种类。",
           "urgent": false,
@@ -2224,6 +2458,7 @@
           "id": "room-safety-2",
           "en": "There's a cockroach in the bathroom.",
           "zh": "浴室里有一只蟑螂。",
+          "jp": "浴室にゴキブリがいます。",
           "chunks": "There's a cockroach / in the bathroom.",
           "tip": "cockroach 是蟑螂；只在看清楚后使用具体名称。",
           "urgent": false,
@@ -2233,6 +2468,7 @@
           "id": "room-safety-3",
           "en": "There's a spider near the bed.",
           "zh": "床边有一只蜘蛛。",
+          "jp": "ベッドの近くにクモがいます。",
           "chunks": "There's a spider / near the bed.",
           "tip": "spider 是蜘蛛；near the bed 表示在床附近。",
           "urgent": false,
@@ -2242,6 +2478,7 @@
           "id": "room-safety-4",
           "en": "The door lock isn't working.",
           "zh": "门锁坏了。",
+          "jp": "ドアの鍵が壊れています。",
           "chunks": "The door lock / isn't working.",
           "tip": "门锁故障时向前台报告，请工作人员检修或换房。",
           "urgent": true,
@@ -2251,6 +2488,7 @@
           "id": "room-safety-5",
           "en": "Please send someone to help.",
           "zh": "请派人来帮忙。",
+          "jp": "誰かを派遣してください。",
           "chunks": "Please send someone / to help.",
           "tip": "向前台提出请求后，补充实际房号和位置。",
           "urgent": false,
@@ -2260,6 +2498,7 @@
           "id": "room-safety-6",
           "en": "The air conditioning is leaking.",
           "zh": "空调在漏水。",
+          "jp": "エアコンから水漏れしています。",
           "chunks": "The air conditioning / is leaking.",
           "tip": "leaking 表示漏水；向酒店报告设备问题。",
           "urgent": false,
@@ -2269,6 +2508,7 @@
           "id": "room-safety-7",
           "en": "The hot water isn't working.",
           "zh": "没有热水。",
+          "jp": "お湯が出ません。",
           "chunks": "The hot water / isn't working.",
           "tip": "向酒店说明设施问题。",
           "urgent": false,
@@ -2278,6 +2518,7 @@
           "id": "room-safety-8",
           "en": "The toilet is clogged.",
           "zh": "马桶堵了。",
+          "jp": "トイレが詰まっています。",
           "chunks": "The toilet / is clogged.",
           "tip": "clogged 是堵塞；向酒店报告请人修理。",
           "urgent": false,
@@ -2287,6 +2528,7 @@
           "id": "room-safety-9",
           "en": "Could you check the room?",
           "zh": "可以检查一下房间吗？",
+          "jp": "部屋を確認していただけますか？",
           "chunks": "Could you check / the room?",
           "tip": "请求酒店工作人员前来检查。",
           "urgent": false,
@@ -2296,6 +2538,7 @@
           "id": "room-safety-10",
           "en": "Could we change rooms?",
           "zh": "我们可以换个房间吗？",
+          "jp": "部屋を変えてもらえますか？",
           "chunks": "Could we / change rooms?",
           "tip": "提出换房请求；有没有空房需要酒店确认。",
           "urgent": false,
@@ -2305,6 +2548,7 @@
           "id": "room-safety-11",
           "en": "The Wi-Fi isn't working in our room.",
           "zh": "我们房间的 Wi-Fi 用不了。",
+          "jp": "部屋のWi-Fiが使えません。",
           "chunks": "The Wi-Fi / isn't working in our room.",
           "tip": "向酒店报告网络问题，请求检查或重启路由器。",
           "urgent": false,
@@ -2314,6 +2558,7 @@
           "id": "room-safety-12",
           "en": "Please tell us when we can return.",
           "zh": "请告诉我们什么时候可以回房间。",
+          "jp": "いつ部屋に戻れるか教えてください。",
           "chunks": "Please tell us / when we can return.",
           "tip": "用于等待酒店处理后的沟通，不表示已经得到安全保证。",
           "urgent": false,
@@ -2325,24 +2570,28 @@
           "role": "旅客",
           "en": "There's a large insect in our room.",
           "zh": "我们房间里有一只大虫子。",
+          "jp": "部屋に大きな虫がいます。",
           "audio": ""
         },
         {
           "role": "酒店前台",
           "en": "Which room are you in?",
           "zh": "您住在哪个房间？",
+          "jp": "何号室ですか？",
           "audio": ""
         },
         {
           "role": "旅客",
           "en": "Room three-oh-five. Could we change rooms?",
           "zh": "305 房间。我们可以换房吗？",
+          "jp": "三〇五号室です。部屋を変えてもらえますか？",
           "audio": ""
         },
         {
           "role": "酒店前台",
           "en": "I'll check room availability and send someone to help.",
           "zh": "我查一下空房，也派人过来帮忙。",
+          "jp": "空室を確認して、誰かを派遣します。",
           "audio": ""
         }
       ]
