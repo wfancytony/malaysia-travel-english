@@ -136,3 +136,14 @@ dialog{background:var(--bg);overscroll-behavior:contain}
   .audio-controls #listen-button{grid-column:1 / -1}
   .trip-stamp{display:none}
 }
+.destination-selector{position:relative}
+.dest-toggle{font-size:13px;font-weight:700;letter-spacing:1px;background:#e8f3e7;color:#006756;padding:8px 14px;border-radius:10px;min-height:40px;white-space:nowrap}
+.dest-toggle:hover{background:#dcebcf}
+.dest-menu{position:absolute;top:calc(100% + 6px);right:0;z-index:50;background:#fff;border:1px solid #dce6e1;border-radius:12px;box-shadow:0 6px 24px #19372f18;padding:6px;min-width:160px}
+.dest-option{display:block;width:100%;text-align:left;padding:10px 14px;border-radius:8px;font-size:15px;color:#153f37;background:transparent}
+.dest-option:hover{background:#edfaf1}
+.dest-option.active{background:#e8f3e7;font-weight:700;color:#006756}
+@media(max-width:700px){
+  .dest-toggle{font-size:12px;padding:7px 11px;min-height:38px}
+  .dest-menu{min-width:140px}
+}

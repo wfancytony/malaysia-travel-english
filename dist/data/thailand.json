@@ -1,0 +1,2425 @@
+{
+  "version": 2,
+  "destination": {
+    "id": "thailand",
+    "name": "泰国",
+    "nameEn": "Thailand",
+    "cities": [
+      "Bangkok",
+      "Phuket",
+      "Chiang Mai"
+    ],
+    "icon": "🇹🇭"
+  },
+  "lessons": [
+    {
+      "id": "arrival",
+      "number": 1,
+      "title": "抵达与机场",
+      "subtitle": "说明来意，找到行李，听不清就再问一次",
+      "icon": "plane",
+      "phrases": [
+        {
+          "id": "arrival-1",
+          "en": "I'm here for a holiday.",
+          "zh": "我是来度假的。",
+          "chunks": "I'm here / for a holiday.",
+          "tip": "入境时按真实目的回答；这句适用于度假。",
+          "audio": ""
+        },
+        {
+          "id": "arrival-2",
+          "en": "I'm staying for a few days.",
+          "zh": "我会待几天。",
+          "chunks": "I'm staying / for a few days.",
+          "tip": "a few days 是泛指几天；使用时替换为实际停留天数。",
+          "audio": ""
+        },
+        {
+          "id": "arrival-3",
+          "en": "Here's my passport.",
+          "zh": "这是我的护照。",
+          "chunks": "Here's / my passport.",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "arrival-4",
+          "en": "Where can I collect my luggage?",
+          "zh": "我在哪里取行李？",
+          "chunks": "Where can I / collect my luggage?",
+          "tip": "luggage 指行李，问托运行李领取处时用。",
+          "audio": ""
+        },
+        {
+          "id": "arrival-5",
+          "en": "Where's the toilet?",
+          "zh": "洗手间在哪里？",
+          "chunks": "Where's / the toilet?",
+          "tip": "开口前可以加 Excuse me，意思是「打扰一下」。",
+          "audio": ""
+        },
+        {
+          "id": "arrival-6",
+          "en": "Where's the exit?",
+          "zh": "出口在哪里？",
+          "chunks": "Where's / the exit?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "arrival-7",
+          "en": "Could you speak more slowly?",
+          "zh": "可以说慢一点吗？",
+          "chunks": "Could you / speak more slowly?",
+          "tip": "听不清时直接说，任何场景都能用。",
+          "audio": ""
+        },
+        {
+          "id": "arrival-8",
+          "en": "Could you say that again?",
+          "zh": "可以再说一遍吗？",
+          "chunks": "Could you / say that again?",
+          "tip": "",
+          "audio": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "入境工作人员",
+          "en": "What's the purpose of your visit?",
+          "zh": "您这次来是做什么的？",
+          "audio": ""
+        },
+        {
+          "role": "旅客",
+          "en": "I'm here for a holiday.",
+          "zh": "我是来度假的。",
+          "audio": ""
+        },
+        {
+          "role": "入境工作人员",
+          "en": "How long are you staying?",
+          "zh": "您打算待多久？",
+          "audio": ""
+        },
+        {
+          "role": "旅客",
+          "en": "I'm staying for a few days.",
+          "zh": "我会待几天。",
+          "audio": ""
+        }
+      ]
+    },
+    {
+      "id": "cabin-baggage",
+      "title": "随身行李与额度",
+      "subtitle": "问清每个人能带多少，称重和液体规定一起确认",
+      "icon": "bag",
+      "phrases": [
+        {
+          "id": "cabin-baggage-1",
+          "en": "We have no checked baggage.",
+          "zh": "我们没有托运行李。",
+          "chunks": "We have / no checked baggage.",
+          "tip": "checked baggage 是托运行李；有托运时不要用这句。",
+          "audio": ""
+        },
+        {
+          "id": "cabin-baggage-2",
+          "en": "We all have cabin bags.",
+          "zh": "我们都带着随身行李。",
+          "chunks": "We all have / cabin bags.",
+          "tip": "cabin bags 指带进机舱的行李。",
+          "audio": ""
+        },
+        {
+          "id": "cabin-baggage-3",
+          "en": "What's the free cabin baggage allowance?",
+          "zh": "免费的随身行李额度是多少？",
+          "chunks": "What's the free / cabin baggage allowance?",
+          "tip": "让工作人员按你的实际机票确认额度。",
+          "audio": ""
+        },
+        {
+          "id": "cabin-baggage-4",
+          "en": "How many bags can each person bring?",
+          "zh": "每个人可以带几件行李？",
+          "chunks": "How many bags / can each person bring?",
+          "tip": "each person 是每个人；这里问随身行李件数。",
+          "audio": ""
+        },
+        {
+          "id": "cabin-baggage-5",
+          "en": "What's the weight limit for each person?",
+          "zh": "每个人的重量上限是多少？",
+          "chunks": "What's the weight limit / for each person?",
+          "tip": "接着随身行李的话题问，确认是每人的额度。",
+          "audio": ""
+        },
+        {
+          "id": "cabin-baggage-6",
+          "en": "What's the size limit for a cabin bag?",
+          "zh": "随身行李的尺寸上限是多少？",
+          "chunks": "What's the size limit / for a cabin bag?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "cabin-baggage-7",
+          "en": "Can I also bring a small personal bag?",
+          "zh": "我还可以另外带一个随身小包吗？",
+          "chunks": "Can I also bring / a small personal bag?",
+          "tip": "可指背包或手提包；不要先默认能额外带。",
+          "audio": ""
+        },
+        {
+          "id": "cabin-baggage-8",
+          "en": "Are both bags weighed together?",
+          "zh": "这两件行李是合在一起称重吗？",
+          "chunks": "Are both bags / weighed together?",
+          "tip": "指同一个人的登机箱和小包，不是两位旅客。",
+          "audio": ""
+        },
+        {
+          "id": "cabin-baggage-9",
+          "en": "Could you weigh this bag, please?",
+          "zh": "可以帮我称一下这件行李吗？",
+          "chunks": "Could you weigh / this bag, please?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "cabin-baggage-10",
+          "en": "How much is the excess baggage fee?",
+          "zh": "超出行李额度要收多少钱？",
+          "chunks": "How much is / the excess baggage fee?",
+          "tip": "先确认怎样处理和收费，不代表超额行李付钱就能带上机。",
+          "audio": ""
+        },
+        {
+          "id": "cabin-baggage-11",
+          "en": "Can this bag go in the overhead compartment?",
+          "zh": "这个包可以放在头顶的行李舱里吗？",
+          "chunks": "Can this bag go / in the overhead compartment?",
+          "tip": "overhead compartment 是机舱座位上方的行李舱。",
+          "audio": ""
+        },
+        {
+          "id": "cabin-baggage-12",
+          "en": "What are the rules for liquids in cabin bags?",
+          "zh": "随身行李里的液体有什么规定？",
+          "chunks": "What are the rules / for liquids in cabin bags?",
+          "tip": "询问这次行程适用的规定，这里不预设容量限制。",
+          "audio": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "旅客",
+          "en": "We all have cabin bags, with no checked baggage.",
+          "zh": "我们都带了随身行李，没有托运行李。",
+          "audio": ""
+        },
+        {
+          "role": "航司工作人员",
+          "en": "Do you also have any small personal bags?",
+          "zh": "你们还带了随身小包吗？",
+          "audio": ""
+        },
+        {
+          "role": "旅客",
+          "en": "Yes. Does the weight limit include our personal bags?",
+          "zh": "有。重量限额也包含这些小包吗？",
+          "audio": ""
+        },
+        {
+          "role": "航司工作人员",
+          "en": "Let me check the allowance for your booking.",
+          "zh": "我查一下你们这张订单的行李额度。",
+          "audio": ""
+        }
+      ],
+      "number": 2
+    },
+    {
+      "id": "flights",
+      "title": "登机、转机与时间",
+      "subtitle": "问清登机口和时间，需要转机时再确认路线",
+      "icon": "plane",
+      "phrases": [
+        {
+          "id": "flights-1",
+          "en": "Which gate should we go to?",
+          "zh": "我们应该去哪个登机口？",
+          "chunks": "Which gate / should we go to?",
+          "tip": "可以同时出示登机牌。",
+          "audio": ""
+        },
+        {
+          "id": "flights-2",
+          "en": "Has the gate changed?",
+          "zh": "登机口有变吗？",
+          "chunks": "Has the gate / changed?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "flights-3",
+          "en": "What time does this flight depart?",
+          "zh": "这班飞机几点起飞？",
+          "chunks": "What time / does this flight depart?",
+          "tip": "depart 是出发；这里问航班起飞时间。",
+          "audio": ""
+        },
+        {
+          "id": "flights-4",
+          "en": "What time will we arrive?",
+          "zh": "我们几点到达？",
+          "chunks": "What time / will we arrive?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "flights-5",
+          "en": "What time does boarding start?",
+          "zh": "几点开始登机？",
+          "chunks": "What time / does boarding start?",
+          "tip": "boarding 是登机；与起飞时间分别确认。",
+          "audio": ""
+        },
+        {
+          "id": "flights-6",
+          "en": "What time does the boarding gate close?",
+          "zh": "登机口几点关闭？",
+          "chunks": "What time / does the boarding gate close?",
+          "tip": "确认最晚登机节点，不要把起飞时间当成截止时间。",
+          "audio": ""
+        },
+        {
+          "id": "flights-7",
+          "en": "Is the flight delayed?",
+          "zh": "航班延误了吗？",
+          "chunks": "Is the flight / delayed?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "flights-8",
+          "en": "What's the new departure time?",
+          "zh": "新的起飞时间是几点？",
+          "chunks": "What's the new / departure time?",
+          "tip": "听到航班时间调整后再问。",
+          "audio": ""
+        },
+        {
+          "id": "flights-9",
+          "en": "Is that the local time?",
+          "zh": "那是当地时间吗？",
+          "chunks": "Is that / the local time?",
+          "tip": "跨时区时可进一步指明是出发地还是目的地。",
+          "audio": ""
+        },
+        {
+          "id": "flights-10",
+          "en": "Do we need to change planes?",
+          "zh": "我们需要换乘另一班飞机吗？",
+          "chunks": "Do we need to / change planes?",
+          "tip": "先按机票确认是否转机；后面的转机句在需要时使用。",
+          "audio": ""
+        },
+        {
+          "id": "flights-11",
+          "en": "Is our connecting flight at the same airport?",
+          "zh": "我们的下一程航班在同一个机场吗？",
+          "chunks": "Is our connecting flight / at the same airport?",
+          "tip": "connecting flight 是衔接的下一程航班。",
+          "audio": ""
+        },
+        {
+          "id": "flights-12",
+          "en": "Do we need to change terminals?",
+          "zh": "我们需要换航站楼吗？",
+          "chunks": "Do we need to / change terminals?",
+          "tip": "terminal 是航站楼，gate 是登机口。",
+          "audio": ""
+        },
+        {
+          "id": "flights-13",
+          "en": "How do we get to the other terminal?",
+          "zh": "我们怎么去另一个航站楼？",
+          "chunks": "How do we get / to the other terminal?",
+          "tip": "确认需要换航站楼后再问。",
+          "audio": ""
+        },
+        {
+          "id": "flights-14",
+          "en": "How much time do we have for the connection?",
+          "zh": "我们有多少转机时间？",
+          "chunks": "How much time do we have / for the connection?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "flights-15",
+          "en": "Is there enough time to catch our next flight?",
+          "zh": "时间来得及赶上下一班飞机吗？",
+          "chunks": "Is there enough time / to catch our next flight?",
+          "tip": "出示下一程机票，让工作人员结合实际航班确认。",
+          "audio": ""
+        },
+        {
+          "id": "flights-16",
+          "en": "Could you help us find the transfer desk?",
+          "zh": "可以帮我们找一下转机服务台吗？",
+          "chunks": "Could you help us find / the transfer desk?",
+          "tip": "",
+          "audio": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "旅客",
+          "en": "Has the gate changed?",
+          "zh": "登机口有变吗？",
+          "audio": ""
+        },
+        {
+          "role": "机场工作人员",
+          "en": "Yes. Please check the new gate on the screen.",
+          "zh": "有，请看屏幕上的新登机口。",
+          "audio": ""
+        },
+        {
+          "role": "旅客",
+          "en": "What time does boarding start?",
+          "zh": "几点开始登机？",
+          "audio": ""
+        },
+        {
+          "role": "机场工作人员",
+          "en": "Let me check the latest boarding time for you.",
+          "zh": "我帮你们查一下最新的登机时间。",
+          "audio": ""
+        }
+      ],
+      "number": 3
+    },
+    {
+      "id": "numbers",
+      "title": "航班号、人数与年龄",
+      "subtitle": "练习把数字、字母和时间说清楚",
+      "icon": "plane",
+      "phrases": [
+        {
+          "id": "numbers-1",
+          "en": "There are a few of us.",
+          "zh": "我们有几个人。",
+          "chunks": "There are / a few of us.",
+          "tip": "可用于订位、买票或向工作人员说明人数；使用时替换为实际数字。",
+          "audio": ""
+        },
+        {
+          "id": "numbers-2",
+          "en": "We'd like two tickets, please.",
+          "zh": "我们要两张票，谢谢。",
+          "chunks": "We'd like / two tickets, please.",
+          "tip": "按实际人数替换数量。",
+          "audio": ""
+        },
+        {
+          "id": "numbers-3",
+          "en": "Could we have seats together?",
+          "zh": "可以安排连在一起的座位吗？",
+          "chunks": "Could we have / seats together?",
+          "tip": "这是提出请求，是否能安排以现场答复为准。",
+          "audio": ""
+        },
+        {
+          "id": "numbers-4",
+          "en": "Our flight number is TG123.",
+          "zh": "我们的航班号是 TG123。",
+          "chunks": "Our flight number is / TG123.",
+          "tip": "TG123 只是读法示例，不是你们的航班；字母和数字逐个读。",
+          "speak": "Our flight number is T G one two three.",
+          "audio": ""
+        },
+        {
+          "id": "numbers-5",
+          "en": "The child is eight years old.",
+          "zh": "这位小朋友八岁。",
+          "chunks": "The child is / eight years old.",
+          "tip": "八岁仅为练习示例，不代表同行者的实际年龄；按真实周岁回答。",
+          "audio": ""
+        },
+        {
+          "id": "numbers-6",
+          "en": "I'm thirty years old.",
+          "zh": "我三十岁。",
+          "chunks": "I'm / thirty years old.",
+          "tip": "三十岁仅为练习示例，不是你的年龄；实际使用时替换。",
+          "audio": ""
+        },
+        {
+          "id": "numbers-7",
+          "en": "I'm sixty years old.",
+          "zh": "我六十岁。",
+          "chunks": "I'm / sixty years old.",
+          "tip": "六十岁仅为练习示例，不是你的年龄；实际使用时替换。",
+          "audio": ""
+        },
+        {
+          "id": "numbers-8",
+          "en": "How old is the child?",
+          "zh": "这位小朋友几岁？",
+          "chunks": "How old / is the child?",
+          "tip": "也练习听懂工作人员的提问；不表示这次同行者中有儿童。",
+          "audio": ""
+        },
+        {
+          "id": "numbers-9",
+          "en": "My phone number is 081 234 5678.",
+          "zh": "我的电话号码是 081 234 5678。",
+          "chunks": "My phone number is / 081 / 234 / 5678.",
+          "tip": "号码仅用于逐位读数练习，不是你的号码；实际报自己的完整号码和国家区号。",
+          "speak": "My phone number is zero eight one, two three four, five six seven eight.",
+          "audio": ""
+        },
+        {
+          "id": "numbers-10",
+          "en": "Departure is at two thirty p.m.",
+          "zh": "下午两点半出发。",
+          "chunks": "Departure is at / two thirty p.m.",
+          "tip": "时间仅为示例：下午 2:30 就是 14:30，不是实际航班时间。",
+          "audio": ""
+        },
+        {
+          "id": "numbers-11",
+          "en": "Arrival is at six forty-five p.m.",
+          "zh": "下午六点四十五到达。",
+          "chunks": "Arrival is at / six forty-five p.m.",
+          "tip": "时间仅为示例：下午 6:45 就是 18:45，不是实际航班时间。",
+          "audio": ""
+        },
+        {
+          "id": "numbers-12",
+          "en": "Is this Terminal One?",
+          "zh": "这里是一号航站楼吗？",
+          "chunks": "Is this / Terminal One?",
+          "tip": "练习读数字 1；不代表你们应当前往一号航站楼。",
+          "audio": ""
+        },
+        {
+          "id": "numbers-13",
+          "en": "How do we get to Terminal Two?",
+          "zh": "我们怎么去二号航站楼？",
+          "chunks": "How do we get / to Terminal Two?",
+          "tip": "练习读数字 2；具体航站楼按自己的航班确认。",
+          "audio": ""
+        },
+        {
+          "id": "numbers-14",
+          "en": "This cabin bag weighs seven kilograms.",
+          "zh": "这件随身行李重七公斤。",
+          "chunks": "This cabin bag weighs / seven kilograms.",
+          "tip": "七公斤仅为重量读法示例，不是免费行李额度或实际称重结果。",
+          "audio": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "航司工作人员",
+          "en": "How many people are travelling?",
+          "zh": "一共有几个人出行？",
+          "audio": ""
+        },
+        {
+          "role": "旅客",
+          "en": "There are two of us.",
+          "zh": "我们一共两个人。",
+          "audio": ""
+        },
+        {
+          "role": "航司工作人员",
+          "en": "What's your flight number?",
+          "zh": "你们的航班号是什么？",
+          "audio": ""
+        },
+        {
+          "role": "旅客",
+          "en": "Our flight number is TG123.",
+          "zh": "我们的航班号是 TG123。",
+          "speak": "Our flight number is T G one two three.",
+          "audio": ""
+        }
+      ],
+      "number": 4
+    },
+    {
+      "id": "transport",
+      "number": 5,
+      "title": "Grab 与问路",
+      "subtitle": "找到上车点，核对订单，说清目的地",
+      "icon": "car",
+      "phrases": [
+        {
+          "id": "transport-1",
+          "en": "Where's the Grab pickup point?",
+          "zh": "Grab 上车点在哪里？",
+          "chunks": "Where's / the Grab pickup point?",
+          "tip": "pickup point 就是约定上车的地点。",
+          "audio": ""
+        },
+        {
+          "id": "transport-2",
+          "en": "Are you my Grab driver?",
+          "zh": "您是接我的 Grab 司机吗？",
+          "chunks": "Are you / my Grab driver?",
+          "tip": "配合订单信息核对，不能只凭一句回答确认。",
+          "audio": ""
+        },
+        {
+          "id": "transport-3",
+          "en": "Here's the name on my booking.",
+          "zh": "这是我订单上的名字。",
+          "chunks": "Here's the name / on my booking.",
+          "tip": "给司机看当前订单上的名字，确认是否是来接你的车。",
+          "audio": ""
+        },
+        {
+          "id": "transport-4",
+          "en": "I'm going to this address.",
+          "zh": "我要去这个地址。",
+          "chunks": "I'm going / to this address.",
+          "tip": "说的时候把目的地地址给对方看。",
+          "audio": ""
+        },
+        {
+          "id": "transport-5",
+          "en": "How long will it take?",
+          "zh": "大概要多久？",
+          "chunks": "How long / will it take?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "transport-6",
+          "en": "Could you stop here, please?",
+          "zh": "麻烦在这里停一下。",
+          "chunks": "Could you stop here, / please?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "transport-7",
+          "en": "Is it within walking distance?",
+          "zh": "走路能到吗？",
+          "chunks": "Is it / within walking distance?",
+          "tip": "已经说清目的地后，用这句问远不远。",
+          "audio": ""
+        },
+        {
+          "id": "transport-8",
+          "en": "How do I get to Bangkok?",
+          "zh": "去曼谷怎么走？",
+          "chunks": "How do I get / to Bangkok?",
+          "tip": "在机场或其他地方问怎么前往曼谷时用。",
+          "audio": ""
+        },
+        {
+          "id": "transport-nearest-supermarket",
+          "en": "Where's the nearest supermarket?",
+          "zh": "最近的超市在哪里？",
+          "chunks": "Where's / the nearest supermarket?",
+          "tip": "supermarket 是超市。",
+          "audio": ""
+        },
+        {
+          "id": "transport-nearby-restaurant",
+          "en": "Is there a restaurant nearby?",
+          "zh": "这附近有餐厅吗？",
+          "chunks": "Is there / a restaurant nearby?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "transport-show-map",
+          "en": "Could you show us on the map?",
+          "zh": "可以在地图上指给我们看吗？",
+          "chunks": "Could you show us / on the map?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "transport-how-get",
+          "en": "How do we get there?",
+          "zh": "我们怎么去那里？",
+          "chunks": "How do we / get there?",
+          "tip": "先说明或展示目的地，再问这句。",
+          "audio": ""
+        },
+        {
+          "id": "transport-fare-total",
+          "en": "Is this the total fare?",
+          "zh": "这是一共的车费吗？",
+          "chunks": "Is this / the total fare?",
+          "tip": "确认价格按人还是按车，避免自行推断。",
+          "audio": ""
+        },
+        {
+          "id": "transport-return-pickup",
+          "en": "Could you pick us up here later?",
+          "zh": "稍后可以在这里接我们吗？",
+          "chunks": "Could you pick us up / here later?",
+          "tip": "如对方同意，再确认时间、费用和联系办法。",
+          "audio": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "司机",
+          "en": "Can you show me the name on your booking?",
+          "zh": "可以给我看一下您订单上的名字吗？",
+          "audio": ""
+        },
+        {
+          "role": "旅客",
+          "en": "Sure. Here it is.",
+          "zh": "可以，在这里。",
+          "audio": ""
+        },
+        {
+          "role": "司机",
+          "en": "Where are you going?",
+          "zh": "您要去哪里？",
+          "audio": ""
+        },
+        {
+          "role": "旅客",
+          "en": "I'm going to this address.",
+          "zh": "我要去这个地址。",
+          "audio": ""
+        }
+      ]
+    },
+    {
+      "id": "places-bangkok",
+      "title": "曼谷 · 地名与吃逛",
+      "subtitle": "大皇宫、卧佛寺、考山路、暹罗广场、恰图恰、唐人街",
+      "icon": "map",
+      "phrases": [
+        {
+          "id": "bk-grand-palace",
+          "en": "Grand Palace.",
+          "zh": "大皇宫",
+          "chunks": "Grand / Palace.",
+          "tip": "曼谷最著名的景点；地图搜完整名称，参观入口需现场确认。",
+          "city": "Bangkok",
+          "kind": "景点",
+          "mapQuery": "Grand Palace Bangkok",
+          "source": "https://www.tourismthailand.org/Attractions/Grand-Palace",
+          "askEn": "How do we get to the Grand Palace?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "bk-wat-pho",
+          "en": "Wat Pho.",
+          "zh": "卧佛寺",
+          "chunks": "Wat / Pho.",
+          "tip": "曼谷古老寺庙，有大型卧佛像；Wat 在泰语中意为寺庙。",
+          "city": "Bangkok",
+          "kind": "景点",
+          "mapQuery": "Wat Pho Bangkok",
+          "source": "https://www.tourismthailand.org/Attractions/Wat-Pho",
+          "askEn": "How do we get to Wat Pho?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "bk-khaosan",
+          "en": "Khao San Road.",
+          "zh": "考山路",
+          "chunks": "Khao San / Road.",
+          "tip": "曼谷背包容聚集的街道，有小吃和酒吧；地图定位街道，具体店铺另选。",
+          "city": "Bangkok",
+          "kind": "景点",
+          "mapQuery": "Khao San Road Bangkok",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100002",
+          "askEn": "How do we get to Khao San Road?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "bk-siam-square",
+          "en": "Siam Square.",
+          "zh": "暹罗广场",
+          "chunks": "Siam / Square.",
+          "tip": "曼谷市中心商业区，有商场和餐厅；打车前确认具体商场入口。",
+          "city": "Bangkok",
+          "kind": "景点",
+          "mapQuery": "Siam Square Bangkok",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100006",
+          "askEn": "How do we get to Siam Square?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "bk-chatuchak",
+          "en": "Chatuchak Weekend Market.",
+          "zh": "恰图恰周末市场",
+          "chunks": "Chatuchak / Weekend Market.",
+          "tip": "曼谷大型周末市场；仅周末开放，地图搜完整名称。",
+          "city": "Bangkok",
+          "kind": "景点",
+          "mapQuery": "Chatuchak Weekend Market Bangkok",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100015",
+          "askEn": "How do we get to Chatuchak Weekend Market?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "bk-chinatown",
+          "en": "Yaowarat Chinatown.",
+          "zh": "唐人街（耀华力路）",
+          "chunks": "Yaowarat / Chinatown.",
+          "tip": "曼谷唐人街，以街边美食闻名；Yaowarat 是主要街道名。",
+          "city": "Bangkok",
+          "kind": "景点",
+          "mapQuery": "Yaowarat Chinatown Bangkok",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100011",
+          "askEn": "How do we get to Yaowarat Chinatown?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "bk-wat-arun",
+          "en": "Wat Arun.",
+          "zh": "郑王庙（黎明寺）",
+          "chunks": "Wat / Arun.",
+          "tip": "湄南河畔的标志性寺庙；可从对岸码头坐渡船到达。",
+          "city": "Bangkok",
+          "kind": "景点",
+          "mapQuery": "Wat Arun Bangkok",
+          "source": "https://www.tourismthailand.org/Attractions/Wat-Arun",
+          "askEn": "How do we get to Wat Arun?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "bk-mbk",
+          "en": "MBK Center.",
+          "zh": "MBK 购物中心",
+          "chunks": "MBK / Center.",
+          "tip": "曼谷知名平价商场，靠近暹罗广场；地图搜完整名称。",
+          "city": "Bangkok",
+          "kind": "景点",
+          "mapQuery": "MBK Center Bangkok",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100006",
+          "askEn": "How do we get to MBK Center?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "bk-siamsquare-one",
+          "en": "Siam Paragon.",
+          "zh": "暹罗百丽宫",
+          "chunks": "Siam / Paragon.",
+          "tip": "曼谷高端商场，内有美食汇和水族馆；地图与暹罗广场分别定位。",
+          "city": "Bangkok",
+          "kind": "景点",
+          "mapQuery": "Siam Paragon Bangkok",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100006",
+          "askEn": "How do we get to Siam Paragon?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "bk-pad-thai",
+          "en": "Pad Thai.",
+          "zh": "泰式炒河粉",
+          "chunks": "Pad / Thai.",
+          "tip": "泰国经典街头美食，可用来询问或点餐。",
+          "city": "Bangkok",
+          "kind": "特产",
+          "source": "https://www.tourismthailand.org/Experience/Thai-Food",
+          "askEn": "Where can we eat Pad Thai?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "bk-tuk-tuk",
+          "en": "tuk-tuk.",
+          "zh": "嘟嘟车（三轮出租车）",
+          "chunks": "tuk-tuk.",
+          "tip": "曼谷特色交通工具；上车前先谈好价格和目的地。",
+          "city": "Bangkok",
+          "kind": "特产",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100002",
+          "askEn": "Where can we take a tuk-tuk?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "bk-city-name",
+          "en": "Bangkok.",
+          "zh": "曼谷",
+          "chunks": "Bangkok.",
+          "tip": "曼谷的英文地名；地图只搜城市会得到大范围位置，叫车时还需填写酒店或具体目的地。",
+          "city": "Bangkok",
+          "kind": "景点",
+          "mapQuery": "Bangkok Thailand",
+          "source": "https://www.tourismthailand.org/Home",
+          "askEn": "How do we get to Bangkok?",
+          "askAudio": "",
+          "audio": ""
+        }
+      ],
+      "dialogue": [],
+      "number": 6
+    },
+    {
+      "id": "places-phuket",
+      "title": "普吉岛 · 地名与补给",
+      "subtitle": "芭东海滩、卡伦海滩、普吉老镇、查龙码头",
+      "icon": "map",
+      "phrases": [
+        {
+          "id": "pk-patong-beach",
+          "en": "Patong Beach.",
+          "zh": "芭东海滩",
+          "chunks": "Patong / Beach.",
+          "tip": "普吉岛最热闹的海滩；地图搜完整名称，确认海滩入口。",
+          "city": "Phuket",
+          "kind": "景点",
+          "mapQuery": "Patong Beach Phuket",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100043",
+          "askEn": "How do we get to Patong Beach?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "pk-karon-beach",
+          "en": "Karon Beach.",
+          "zh": "卡伦海滩",
+          "chunks": "Karon / Beach.",
+          "tip": "普吉岛西侧长海滩，比芭东安静；地图核对海滩名称。",
+          "city": "Phuket",
+          "kind": "景点",
+          "mapQuery": "Karon Beach Phuket",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100043",
+          "askEn": "How do we get to Karon Beach?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "pk-old-town",
+          "en": "Phuket Old Town.",
+          "zh": "普吉老镇",
+          "chunks": "Phuket / Old Town.",
+          "tip": "普吉岛首府的历史街区，有彩色建筑和咖啡馆；地图搜 Old Town。",
+          "city": "Phuket",
+          "kind": "景点",
+          "mapQuery": "Phuket Old Town",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100043",
+          "askEn": "How do we get to Phuket Old Town?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "pk-chalong-pier",
+          "en": "Chalong Pier.",
+          "zh": "查龙码头",
+          "chunks": "Chalong / Pier.",
+          "tip": "普吉岛出海常用码头；集合点以船公司通知为准，地图可能指向不同入口。",
+          "city": "Phuket",
+          "kind": "景点",
+          "mapQuery": "Chalong Pier Phuket",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100043",
+          "askEn": "How do we get to Chalong Pier?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "pk-airport",
+          "en": "Phuket International Airport.",
+          "zh": "普吉国际机场",
+          "chunks": "Phuket International / Airport.",
+          "tip": "普吉岛主要机场；地图搜完整名称，确认出发或到达航站楼。",
+          "city": "Phuket",
+          "kind": "机场",
+          "mapQuery": "Phuket International Airport",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100043",
+          "askEn": "How do we get to Phuket International Airport?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "pk-big-c",
+          "en": "Big C Supermarket.",
+          "zh": "Big C 超市",
+          "chunks": "Big C / Supermarket.",
+          "tip": "泰国大型连锁超市，可买日用品和零食；普吉有多家分店，地图核对具体店址。",
+          "city": "Phuket",
+          "kind": "超市",
+          "mapQuery": "Big C Supermarket Phuket",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100043",
+          "askEn": "How do we get to Big C Supermarket?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "pk-7eleven",
+          "en": "7-Eleven.",
+          "zh": "7-Eleven 便利店",
+          "chunks": "7-Eleven.",
+          "tip": "泰国最常见的便利店，几乎随处可见；地图搜索最近的分店。",
+          "city": "Phuket",
+          "kind": "超市",
+          "mapQuery": "7-Eleven Phuket",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100043",
+          "askEn": "Where's the nearest 7-Eleven?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "pk-phiphi",
+          "en": "Phi Phi Islands.",
+          "zh": "皮皮岛",
+          "chunks": "Phi Phi / Islands.",
+          "tip": "普吉周边热门海岛目的地；从查龙码头或其他码头出海，行程以运营方确认为准。",
+          "city": "Phuket",
+          "kind": "景点",
+          "mapQuery": "Phi Phi Islands Krabi Thailand",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100043",
+          "askEn": "How do we get to Phi Phi Islands?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "pk-james-bond",
+          "en": "James Bond Island.",
+          "zh": "007岛（詹姆士邦德岛）",
+          "chunks": "James Bond / Island.",
+          "tip": "攀牙湾著名景点；通常从普吉出发参加一日游，地图用于认地名。",
+          "city": "Phuket",
+          "kind": "景点",
+          "mapQuery": "James Bond Island Phang Nga Bay",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100043",
+          "askEn": "How do we get to James Bond Island?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "pk-tomyum-goong",
+          "en": "Tom Yum Goong.",
+          "zh": "冬阴功汤",
+          "chunks": "Tom Yum / Goong.",
+          "tip": "泰国经典酸辣虾汤；可用来询问或点餐。",
+          "city": "Phuket",
+          "kind": "特产",
+          "source": "https://www.tourismthailand.org/Experience/Thai-Food",
+          "askEn": "Where can we eat Tom Yum Goong?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "pk-city-name",
+          "en": "Phuket.",
+          "zh": "普吉岛",
+          "chunks": "Phuket.",
+          "tip": "普吉岛的英文地名；地图只搜城市不能替代具体酒店或海滩地址。",
+          "city": "Phuket",
+          "kind": "景点",
+          "mapQuery": "Phuket Thailand",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100043",
+          "askEn": "How do we get to Phuket?",
+          "askAudio": "",
+          "audio": ""
+        }
+      ],
+      "dialogue": [],
+      "number": 7
+    },
+    {
+      "id": "places-chiangmai",
+      "title": "清迈 · 地名与吃逛",
+      "subtitle": "古城、塔佩门、素贴山、周日夜市",
+      "icon": "map",
+      "phrases": [
+        {
+          "id": "cm-old-city",
+          "en": "Chiang Mai Old City.",
+          "zh": "清迈古城",
+          "chunks": "Chiang Mai / Old City.",
+          "tip": "清迈历史城区，有寺庙和咖啡馆；地图搜 Old City 定位区域。",
+          "city": "Chiang Mai",
+          "kind": "景点",
+          "mapQuery": "Chiang Mai Old City",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100009",
+          "askEn": "How do we get to Chiang Mai Old City?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "cm-tha-pae-gate",
+          "en": "Tha Phae Gate.",
+          "zh": "塔佩门",
+          "chunks": "Tha Phae / Gate.",
+          "tip": "清迈古城东门的标志性城门，是常见集合点。",
+          "city": "Chiang Mai",
+          "kind": "景点",
+          "mapQuery": "Tha Phae Gate Chiang Mai",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100009",
+          "askEn": "How do we get to Tha Phae Gate?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "cm-doi-suthep",
+          "en": "Doi Suthep.",
+          "zh": "素贴山",
+          "chunks": "Doi / Suthep.",
+          "tip": "清迈著名山地寺庙 Wat Phra That Doi Suthep 所在地；上山需乘双条车或步行。",
+          "city": "Chiang Mai",
+          "kind": "景点",
+          "mapQuery": "Wat Phra That Doi Suthep Chiang Mai",
+          "source": "https://www.tourismthailand.org/Attractions/Wat-Phra-That-Doi-Suthep",
+          "askEn": "How do we get to Doi Suthep?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "cm-sunday-market",
+          "en": "Chiang Mai Sunday Night Market.",
+          "zh": "清迈周日夜市",
+          "chunks": "Chiang Mai / Sunday Night Market.",
+          "tip": "古城内的步行街夜市，仅周日傍晚开放；地图搜 Sunday Market 或 Walking Street。",
+          "city": "Chiang Mai",
+          "kind": "景点",
+          "mapQuery": "Chiang Mai Sunday Night Market Tha Phae Gate",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100009",
+          "askEn": "How do we get to Chiang Mai Sunday Night Market?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "cm-night-bazaar",
+          "en": "Chiang Mai Night Bazaar.",
+          "zh": "清迈长康路夜市",
+          "chunks": "Chiang Mai / Night Bazaar.",
+          "tip": "每日开放的夜市，位于长康路；地图搜 Night Bazaar。",
+          "city": "Chiang Mai",
+          "kind": "景点",
+          "mapQuery": "Chiang Mai Night Bazaar",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100009",
+          "askEn": "How do we get to Chiang Mai Night Bazaar?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "cm-airport",
+          "en": "Chiang Mai International Airport.",
+          "zh": "清迈国际机场",
+          "chunks": "Chiang Mai International / Airport.",
+          "tip": "清迈主要机场；距离古城较近，地图搜完整名称。",
+          "city": "Chiang Mai",
+          "kind": "机场",
+          "mapQuery": "Chiang Mai International Airport",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100009",
+          "askEn": "How do we get to Chiang Mai International Airport?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "cm-khao-soy",
+          "en": "Khao Soi.",
+          "zh": "咖喱面（泰北金面）",
+          "chunks": "Khao / Soi.",
+          "tip": "泰北特色面食，清迈必尝美食；可用来询问或点餐。",
+          "city": "Chiang Mai",
+          "kind": "特产",
+          "source": "https://www.tourismthailand.org/Experience/Thai-Food",
+          "askEn": "Where can we eat Khao Soi?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "cm-mango-sticky-rice",
+          "en": "Mango Sticky Rice.",
+          "zh": "芒果糯米饭",
+          "chunks": "Mango / Sticky Rice.",
+          "tip": "泰国经典甜品，清迈也有；可用来询问或点餐。",
+          "city": "Chiang Mai",
+          "kind": "特产",
+          "source": "https://www.tourismthailand.org/Experience/Thai-Food",
+          "askEn": "Where can we eat Mango Sticky Rice?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "cm-wat-chedi-luang",
+          "en": "Wat Chedi Luang.",
+          "zh": "契迪龙寺",
+          "chunks": "Wat / Chedi Luang.",
+          "tip": "古城内的大型寺庙遗址；地图搜完整名称。",
+          "city": "Chiang Mai",
+          "kind": "景点",
+          "mapQuery": "Wat Chedi Luang Chiang Mai",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100009",
+          "askEn": "How do we get to Wat Chedi Luang?",
+          "askAudio": "",
+          "audio": ""
+        },
+        {
+          "id": "cm-city-name",
+          "en": "Chiang Mai.",
+          "zh": "清迈",
+          "chunks": "Chiang / Mai.",
+          "tip": "清迈的英文地名；地图只搜城市不能替代具体酒店或景点地址。",
+          "city": "Chiang Mai",
+          "kind": "景点",
+          "mapQuery": "Chiang Mai Thailand",
+          "source": "https://www.tourismthailand.org/Trip-Planner/100009",
+          "askEn": "How do we get to Chiang Mai?",
+          "askAudio": "",
+          "audio": ""
+        }
+      ],
+      "dialogue": [],
+      "number": 8
+    },
+    {
+      "id": "food",
+      "number": 9,
+      "title": "吃饭与点餐",
+      "subtitle": "指着菜单点餐，说明不辣、少糖和真实忌口",
+      "icon": "coffee",
+      "phrases": [
+        {
+          "id": "food-1",
+          "en": "A table for two, please.",
+          "zh": "麻烦安排两人位。",
+          "chunks": "A table for two, / please.",
+          "tip": "按实际人数替换数量。",
+          "audio": ""
+        },
+        {
+          "id": "food-2",
+          "en": "Could I see the menu, please?",
+          "zh": "可以给我看一下菜单吗？",
+          "chunks": "Could I see / the menu, please?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "food-3",
+          "en": "I'd like this one, please.",
+          "zh": "我要这个，谢谢。",
+          "chunks": "I'd like this one, / please.",
+          "tip": "指着菜单或商品说，暂时不会菜名也能点。",
+          "audio": ""
+        },
+        {
+          "id": "food-4",
+          "en": "Not spicy, please.",
+          "zh": "请做成不辣的。",
+          "chunks": "Not spicy, / please.",
+          "tip": "这是表达口味要求，是否能调整需要店员确认。",
+          "audio": ""
+        },
+        {
+          "id": "food-5",
+          "en": "Less sugar, please.",
+          "zh": "请少放糖。",
+          "chunks": "Less sugar, / please.",
+          "tip": "less sugar 是少糖；完全不加糖可以说「No sugar, please.」。",
+          "audio": ""
+        },
+        {
+          "id": "food-6",
+          "en": "Does this have peanuts in it?",
+          "zh": "这个里面有花生吗？",
+          "chunks": "Does this / have peanuts in it?",
+          "tip": "问配料；可把 peanuts 换成你需要确认的食材。",
+          "audio": ""
+        },
+        {
+          "id": "food-7",
+          "en": "I'm allergic to peanuts.",
+          "zh": "我对花生过敏。",
+          "chunks": "I'm allergic / to peanuts.",
+          "tip": "只有确实对花生过敏才使用；也可换成自己的实际过敏原。",
+          "audio": ""
+        },
+        {
+          "id": "food-8",
+          "en": "Could I have the bill, please?",
+          "zh": "麻烦结账。",
+          "chunks": "Could I have / the bill, please?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "food-water",
+          "en": "Could we have some water?",
+          "zh": "可以给我们一些水吗？",
+          "chunks": "Could we have / some water?",
+          "tip": "按实际需要的杯数提出请求。",
+          "audio": ""
+        },
+        {
+          "id": "food-bottle",
+          "en": "Could we have bottled water, please?",
+          "zh": "可以给我们瓶装水吗？",
+          "chunks": "Could we have / bottled water, please?",
+          "tip": "bottled water 是瓶装水；可继续问价格。",
+          "audio": ""
+        },
+        {
+          "id": "food-recommend",
+          "en": "What would you recommend?",
+          "zh": "您推荐点什么？",
+          "chunks": "What would you / recommend?",
+          "tip": "让店员推荐菜品。",
+          "audio": ""
+        },
+        {
+          "id": "food-share",
+          "en": "Is this enough to share?",
+          "zh": "这份够分着吃吗？",
+          "chunks": "Is this enough / to share?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "food-wait",
+          "en": "How long is the wait for a table?",
+          "zh": "等位大概要多久？",
+          "chunks": "How long is the wait / for a table?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "food-takeaway",
+          "en": "Could we have this to take away?",
+          "zh": "这个可以帮我们打包带走吗？",
+          "chunks": "Could we have this / to take away?",
+          "tip": "take away 是带走。",
+          "audio": ""
+        },
+        {
+          "id": "food-ice",
+          "en": "No ice, please.",
+          "zh": "请不要加冰。",
+          "chunks": "No ice, / please.",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "food-charge",
+          "en": "Is the service charge included?",
+          "zh": "这个价格包含服务费吗？",
+          "chunks": "Is the service charge / included?",
+          "tip": "询问实际账单，不预设服务费或税率。",
+          "audio": ""
+        },
+        {
+          "id": "food-order",
+          "en": "We didn't order this.",
+          "zh": "我们没有点这个。",
+          "chunks": "We didn't / order this.",
+          "tip": "发现上错菜或账单项目不符时可以使用。",
+          "audio": ""
+        },
+        {
+          "id": "food-menu-photo",
+          "en": "Does this menu have pictures?",
+          "zh": "这个菜单有图片吗？",
+          "chunks": "Does this menu / have pictures?",
+          "tip": "不会念菜名时，可以指着图片说 I'd like this one。",
+          "audio": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "咖啡店店员",
+          "en": "For here or takeaway?",
+          "zh": "在这里喝还是带走？",
+          "audio": ""
+        },
+        {
+          "role": "旅客",
+          "en": "For here, please.",
+          "zh": "在这里喝，谢谢。",
+          "audio": ""
+        },
+        {
+          "role": "咖啡店店员",
+          "en": "Would you like sugar in your tea?",
+          "zh": "您的茶需要加糖吗？",
+          "audio": ""
+        },
+        {
+          "role": "旅客",
+          "en": "Yes, but less sugar, please.",
+          "zh": "要，但请少放一点。",
+          "audio": ""
+        }
+      ]
+    },
+    {
+      "id": "payments",
+      "title": "结账、扫码与取现",
+      "subtitle": "说明钱包和银行卡，问清币种、费用与价格",
+      "icon": "bag",
+      "phrases": [
+        {
+          "id": "payments-1",
+          "en": "Do you accept Alipay wallets from mainland China?",
+          "zh": "这里能用中国大陆的支付宝钱包吗？",
+          "chunks": "Do you accept Alipay wallets / from mainland China?",
+          "tip": "说明自己的钱包来自中国大陆，请店员确认是否受理。",
+          "audio": ""
+        },
+        {
+          "id": "payments-2",
+          "en": "Can I pay with WeChat Pay?",
+          "zh": "我可以用微信支付吗？",
+          "chunks": "Can I pay / with WeChat Pay?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "payments-3",
+          "en": "Can I scan this QR code to pay?",
+          "zh": "我可以扫这个二维码付款吗？",
+          "chunks": "Can I scan / this QR code to pay?",
+          "tip": "自己打开支付应用，扫店家的码。",
+          "audio": ""
+        },
+        {
+          "id": "payments-4",
+          "en": "Could you scan my payment code?",
+          "zh": "可以请您扫我的付款码吗？",
+          "chunks": "Could you scan / my payment code?",
+          "tip": "这次是给店员看自己的付款码，请对方扫码。",
+          "audio": ""
+        },
+        {
+          "id": "payments-5",
+          "en": "Can we pay in cash?",
+          "zh": "我们可以用现金付款吗？",
+          "chunks": "Can we pay / in cash?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "payments-6",
+          "en": "Could you give me change, please?",
+          "zh": "可以给我找零吗？",
+          "chunks": "Could you give me / change, please?",
+          "tip": "这里的 change 指找回的零钱。",
+          "audio": ""
+        },
+        {
+          "id": "payments-7",
+          "en": "Could I have a receipt, please?",
+          "zh": "可以给我一张收据吗？",
+          "chunks": "Could I have / a receipt, please?",
+          "tip": "receipt 是付款收据。",
+          "audio": ""
+        },
+        {
+          "id": "payments-8",
+          "en": "Can we split the bill?",
+          "zh": "这笔账可以分开付吗？",
+          "chunks": "Can we split / the bill?",
+          "tip": "先问是否支持，再说明各自支付的金额。",
+          "audio": ""
+        },
+        {
+          "id": "payments-9",
+          "en": "Do you accept debit cards issued in China?",
+          "zh": "可以用中国发行的借记卡吗？",
+          "chunks": "Do you accept debit cards / issued in China?",
+          "tip": "debit card 是借记卡；还可以出示卡面的支付网络标志供确认。",
+          "audio": ""
+        },
+        {
+          "id": "payments-10",
+          "en": "Do you accept credit cards issued in China?",
+          "zh": "可以用中国发行的信用卡吗？",
+          "chunks": "Do you accept credit cards / issued in China?",
+          "tip": "credit card 是信用卡；发行地与支付网络需要分别说明。",
+          "audio": ""
+        },
+        {
+          "id": "payments-11",
+          "en": "Do you accept UnionPay cards?",
+          "zh": "这里受理银联卡吗？",
+          "chunks": "Do you accept / UnionPay cards?",
+          "tip": "按自己卡面的标志问；不能把中国发行的卡都当成银联卡。",
+          "audio": ""
+        },
+        {
+          "id": "payments-12",
+          "en": "Where's the nearest ATM?",
+          "zh": "最近的取款机在哪里？",
+          "chunks": "Where's / the nearest ATM?",
+          "tip": "ATM 是自动取款机。",
+          "audio": ""
+        },
+        {
+          "id": "payments-13",
+          "en": "Does this ATM charge a withdrawal fee?",
+          "zh": "这台取款机取钱要收手续费吗？",
+          "chunks": "Does this ATM charge / a withdrawal fee?",
+          "tip": "问这台 ATM 收取的费用；自己的发卡行费用需另行确认。",
+          "audio": ""
+        },
+        {
+          "id": "payments-14",
+          "en": "Is this amount in baht or renminbi?",
+          "zh": "这个金额是泰铢还是人民币？",
+          "chunks": "Is this amount / in baht or renminbi?",
+          "tip": "baht 是泰铢；renminbi 是人民币。",
+          "audio": ""
+        },
+        {
+          "id": "payments-15",
+          "en": "Can I pay in Thai baht?",
+          "zh": "我可以用泰铢支付吗？",
+          "chunks": "Can I pay / in Thai baht?",
+          "tip": "用于确认付款币种，不表示任何汇率或费用承诺。",
+          "audio": ""
+        },
+        {
+          "id": "payments-16",
+          "en": "How much does this cost?",
+          "zh": "这个要多少钱？",
+          "chunks": "How much / does this cost?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "payments-17",
+          "en": "What's your best price?",
+          "zh": "最低可以给到多少钱？",
+          "chunks": "What's your / best price?",
+          "tip": "适合愿意议价的摊位或商家，语气放轻。",
+          "audio": ""
+        },
+        {
+          "id": "payments-18",
+          "en": "Is there a discount if we buy more?",
+          "zh": "我们多买一些的话有优惠吗？",
+          "chunks": "Is there a discount / if we buy more?",
+          "tip": "在夜市或市场购物时可以使用。",
+          "audio": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "旅客",
+          "en": "Do you accept Alipay wallets from mainland China?",
+          "zh": "这里能用中国大陆的支付宝钱包吗？",
+          "audio": ""
+        },
+        {
+          "role": "店员",
+          "en": "Please try this QR code.",
+          "zh": "请试一下这个二维码。",
+          "audio": ""
+        },
+        {
+          "role": "旅客",
+          "en": "It isn't working. Can I pay in cash?",
+          "zh": "这个用不了。我可以付现金吗？",
+          "audio": ""
+        },
+        {
+          "role": "店员",
+          "en": "Yes. Please pay at the counter.",
+          "zh": "可以，请到收银台付款。",
+          "audio": ""
+        }
+      ],
+      "number": 10
+    },
+    {
+      "id": "shopping",
+      "number": 11,
+      "title": "购物、求助与返程",
+      "subtitle": "问价付款，说明问题，顺利找到返程登机口",
+      "icon": "bag",
+      "phrases": [
+        {
+          "id": "shopping-1",
+          "en": "How much is this?",
+          "zh": "这个多少钱？",
+          "chunks": "How much / is this?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "shopping-2",
+          "en": "Can I pay by card?",
+          "zh": "可以刷卡吗？",
+          "chunks": "Can I pay / by card?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "shopping-3",
+          "en": "Can I return this?",
+          "zh": "这个可以退货吗？",
+          "chunks": "Can I / return this?",
+          "tip": "先询问商家的退货条件，不代表一定可以退。",
+          "audio": ""
+        },
+        {
+          "id": "shopping-4",
+          "en": "I don't understand.",
+          "zh": "我没听懂。",
+          "chunks": "I don't / understand.",
+          "tip": "可以接第一课的「请说慢一点」或「请再说一遍」。",
+          "audio": ""
+        },
+        {
+          "id": "shopping-5",
+          "en": "Could you write it down, please?",
+          "zh": "可以帮我写下来吗？",
+          "chunks": "Could you / write it down, please?",
+          "tip": "听不清价格、地址或时间时很好用。",
+          "audio": ""
+        },
+        {
+          "id": "shopping-6",
+          "en": "I've lost my phone.",
+          "zh": "我的手机丢了。",
+          "chunks": "I've lost / my phone.",
+          "tip": "向服务台说明问题；phone 可以换成 bag 或 passport。",
+          "audio": ""
+        },
+        {
+          "id": "shopping-7",
+          "en": "I'd like to go to the airport, please.",
+          "zh": "我想去机场。",
+          "chunks": "I'd like to go / to the airport, please.",
+          "tip": "同时给对方看航班对应的机场和航站楼名称。",
+          "audio": ""
+        },
+        {
+          "id": "shopping-8",
+          "en": "Where's my boarding gate?",
+          "zh": "我的登机口在哪里？",
+          "chunks": "Where's / my boarding gate?",
+          "tip": "把登机牌给工作人员看，确认当前登机口。",
+          "audio": ""
+        },
+        {
+          "id": "shopping-local-gifts",
+          "en": "Where can we buy local souvenirs?",
+          "zh": "我们去哪里买当地特产或纪念品？",
+          "chunks": "Where can we buy / local souvenirs?",
+          "tip": "souvenirs 是伴手礼或纪念品；地名课有商品名称和地点示例。",
+          "audio": ""
+        },
+        {
+          "id": "shopping-sell-item",
+          "en": "Do you sell this here?",
+          "zh": "你们这里卖这个吗？",
+          "chunks": "Do you sell / this here?",
+          "tip": "同时展示商品名称或图片。",
+          "audio": ""
+        },
+        {
+          "id": "shopping-local-made",
+          "en": "Is this made in Thailand?",
+          "zh": "这个是泰国制造的吗？",
+          "chunks": "Is this made / in Thailand?",
+          "tip": "可看包装产地并询问店员。",
+          "audio": ""
+        },
+        {
+          "id": "shopping-expiry",
+          "en": "What's the expiry date?",
+          "zh": "保质期到什么时候？",
+          "chunks": "What's / the expiry date?",
+          "tip": "购买食品时询问，日期以包装标示为准。",
+          "audio": ""
+        },
+        {
+          "id": "shopping-pack",
+          "en": "Could you pack these for travel?",
+          "zh": "可以帮我把这些打包好带走吗？",
+          "chunks": "Could you pack these / for travel?",
+          "tip": "包装不代表满足航司或入境携带规定，需要另行确认。",
+          "audio": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "旅客",
+          "en": "How much is this?",
+          "zh": "这个多少钱？",
+          "audio": ""
+        },
+        {
+          "role": "店员",
+          "en": "It's five hundred baht.",
+          "zh": "五百泰铢。",
+          "audio": ""
+        },
+        {
+          "role": "旅客",
+          "en": "Can I pay by card?",
+          "zh": "可以刷卡吗？",
+          "audio": ""
+        },
+        {
+          "role": "店员",
+          "en": "Yes. Please tap your card here.",
+          "zh": "可以，请在这里感应您的卡。",
+          "audio": ""
+        }
+      ]
+    },
+    {
+      "id": "hotel",
+      "number": 12,
+      "title": "酒店入住",
+      "subtitle": "办入住、寄存行李，也能说明房间问题",
+      "icon": "bed",
+      "phrases": [
+        {
+          "id": "hotel-1",
+          "en": "I have a booking.",
+          "zh": "我有预订。",
+          "chunks": "I have / a booking.",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "hotel-2",
+          "en": "I'd like to check in, please.",
+          "zh": "我想办理入住。",
+          "chunks": "I'd like to / check in, please.",
+          "tip": "check in 是办理入住，check out 是退房。",
+          "audio": ""
+        },
+        {
+          "id": "hotel-3",
+          "en": "Can I leave my bags here?",
+          "zh": "我可以把行李寄存在这里吗？",
+          "chunks": "Can I leave / my bags here?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "hotel-4",
+          "en": "What time is check-out?",
+          "zh": "几点前需要退房？",
+          "chunks": "What time / is check-out?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "hotel-5",
+          "en": "What's the Wi-Fi password?",
+          "zh": "Wi-Fi 密码是什么？",
+          "chunks": "What's / the Wi-Fi password?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "hotel-6",
+          "en": "Could I have some towels, please?",
+          "zh": "可以给我几条毛巾吗？",
+          "chunks": "Could I have / some towels, please?",
+          "tip": "按实际需要的数量提出请求。",
+          "audio": ""
+        },
+        {
+          "id": "hotel-7",
+          "en": "The air conditioning isn't working.",
+          "zh": "空调不能正常使用。",
+          "chunks": "The air conditioning / isn't working.",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "hotel-8",
+          "en": "Could I check out later?",
+          "zh": "我可以晚一点退房吗？",
+          "chunks": "Could I / check out later?",
+          "tip": "这是询问；是否可延迟、是否收费，以酒店答复为准。",
+          "audio": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "旅客",
+          "en": "I'd like to check in, please.",
+          "zh": "我想办理入住。",
+          "audio": ""
+        },
+        {
+          "role": "酒店前台",
+          "en": "May I have your passport, please?",
+          "zh": "麻烦出示一下您的护照。",
+          "audio": ""
+        },
+        {
+          "role": "旅客",
+          "en": "Sure. Here you are.",
+          "zh": "好的，给您。",
+          "audio": ""
+        },
+        {
+          "role": "酒店前台",
+          "en": "Thank you. Let me check your booking.",
+          "zh": "谢谢，我查一下您的预订。",
+          "audio": ""
+        }
+      ]
+    },
+    {
+      "id": "island",
+      "number": 13,
+      "title": "海岛与浮潜",
+      "subtitle": "确认集合时间，说清水性，及时向向导求助",
+      "icon": "waves",
+      "phrases": [
+        {
+          "id": "island-1",
+          "en": "Where's the meeting point?",
+          "zh": "集合地点在哪里？",
+          "chunks": "Where's / the meeting point?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "island-2",
+          "en": "What time does the boat leave?",
+          "zh": "船几点出发？",
+          "chunks": "What time / does the boat leave?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "island-3",
+          "en": "I need a life jacket, please.",
+          "zh": "请给我一件救生衣。",
+          "chunks": "I need / a life jacket, please.",
+          "tip": "life jacket 是救生衣。",
+          "audio": ""
+        },
+        {
+          "id": "island-4",
+          "en": "I can't swim.",
+          "zh": "我不会游泳。",
+          "chunks": "I can't / swim.",
+          "tip": "在活动开始前明确告诉向导；详细沟通可查看「不会游泳与水上求助」。",
+          "audio": ""
+        },
+        {
+          "id": "island-5",
+          "en": "Could you check my life jacket, please?",
+          "zh": "可以帮我检查一下救生衣吗？",
+          "chunks": "Could you check / my life jacket, please?",
+          "tip": "",
+          "audio": ""
+        },
+        {
+          "id": "island-6",
+          "en": "Could you stay close to me?",
+          "zh": "您可以待在我旁边吗？",
+          "chunks": "Could you / stay close to me?",
+          "tip": "出发前向向导说明自己的需要。",
+          "audio": ""
+        },
+        {
+          "id": "island-7",
+          "en": "I need help, please!",
+          "zh": "请帮帮我！",
+          "chunks": "I need help, / please!",
+          "tip": "需要马上求助时，也可以直接喊「Help!」。",
+          "audio": ""
+        },
+        {
+          "id": "island-8",
+          "en": "I'd like to go back to the boat.",
+          "zh": "我想回船上。",
+          "chunks": "I'd like to / go back to the boat.",
+          "tip": "",
+          "audio": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "浮潜向导",
+          "en": "Have you been snorkelling in Thailand before?",
+          "zh": "您之前在泰国浮潜过吗？",
+          "audio": ""
+        },
+        {
+          "role": "旅客",
+          "en": "No, and I can't swim.",
+          "zh": "没有，而且我不会游泳。",
+          "audio": ""
+        },
+        {
+          "role": "浮潜向导",
+          "en": "Let's check your life jacket first.",
+          "zh": "我们先检查一下您的救生衣。",
+          "audio": ""
+        },
+        {
+          "role": "旅客",
+          "en": "Could you stay close to me?",
+          "zh": "您可以待在我旁边吗？",
+          "audio": ""
+        }
+      ]
+    },
+    {
+      "id": "water-safety",
+      "title": "不会游泳与水上求助",
+      "subtitle": "说明不会游泳，确认活动安排，也能表达不下水的选择",
+      "icon": "waves",
+      "phrases": [
+        {
+          "id": "water-safety-1",
+          "en": "I can't swim.",
+          "zh": "我不会游泳。",
+          "chunks": "I can't / swim.",
+          "tip": "直接说明不会游泳；不要改成「游得不太好」。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "water-safety-2",
+          "en": "None of us can swim.",
+          "zh": "我们都不会游泳。",
+          "chunks": "None of us / can swim.",
+          "tip": "在所有人都不会游泳时使用；如果只有自己不会，就说 I can't swim。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "water-safety-3",
+          "en": "Is this suitable for non-swimmers?",
+          "zh": "这个活动适合不会游泳的人吗？",
+          "chunks": "Is this suitable / for non-swimmers?",
+          "tip": "在预订或出发前问清；non-swimmers 指不会游泳的人。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "water-safety-4",
+          "en": "Can I stay on the boat?",
+          "zh": "我可以留在船上吗？",
+          "chunks": "Can I stay / on the boat?",
+          "tip": "询问能否选择不下水，需要工作人员确认安排。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "water-safety-5",
+          "en": "Please stay close to me.",
+          "zh": "请待在我旁边。",
+          "chunks": "Please stay / close to me.",
+          "tip": "对向导提出陪同需求；这句话本身不代表对方已经承诺。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "water-safety-6",
+          "en": "Could you check my life jacket?",
+          "zh": "可以帮我检查救生衣吗？",
+          "chunks": "Could you check / my life jacket?",
+          "tip": "life jacket 是救生衣；检查救生衣并不等于保证下水安全。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "water-safety-7",
+          "en": "My life jacket is too tight.",
+          "zh": "我的救生衣太紧了。",
+          "chunks": "My life jacket / is too tight.",
+          "tip": "too tight 是太紧；太松可把 tight 换成 loose。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "water-safety-8",
+          "en": "My mask is leaking.",
+          "zh": "我的面镜进水了。",
+          "chunks": "My mask / is leaking.",
+          "tip": "这里的 mask 指浮潜面镜；leaking 表示漏水、进水。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "water-safety-9",
+          "en": "Water is getting into my snorkel.",
+          "zh": "我的呼吸管进水了。",
+          "chunks": "Water is getting / into my snorkel.",
+          "tip": "snorkel 是浮潜呼吸管；这句只描述设备里的进水情况。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "water-safety-10",
+          "en": "I'm short of breath.",
+          "zh": "我喘不过气。",
+          "chunks": "I'm / short of breath.",
+          "tip": "short of breath 表示呼吸困难或气不够用；无法呼吸时可用急用卡中的 I can't breathe。",
+          "urgent": true,
+          "audio": ""
+        },
+        {
+          "id": "water-safety-11",
+          "en": "I have a cramp in my calf.",
+          "zh": "我的小腿肚抽筋了。",
+          "chunks": "I have a cramp / in my calf.",
+          "tip": "calf 是小腿肚；也可用 leg 表示腿，只按实际部位描述。",
+          "urgent": true,
+          "audio": ""
+        },
+        {
+          "id": "water-safety-12",
+          "en": "Help! I need to get back on the boat.",
+          "zh": "救命！我需要回到船上。",
+          "chunks": "Help! / I need to get back / on the boat.",
+          "tip": "急用时先喊 Help，再说出需要的帮助。",
+          "urgent": true,
+          "audio": ""
+        },
+        {
+          "id": "water-safety-13",
+          "en": "Please help me stay calm.",
+          "zh": "请帮我冷静下来。",
+          "chunks": "Please help me / stay calm.",
+          "tip": "慌张时向身边的工作人员表达需要支持；不是急救操作指令。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "water-safety-14",
+          "en": "I don't want to go into the water.",
+          "zh": "我不想下水。",
+          "chunks": "I don't want to / go into the water.",
+          "tip": "明确表达自己的选择，不需要为了礼貌而勉强同意。",
+          "urgent": false,
+          "audio": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "旅客",
+          "en": "None of us can swim.",
+          "zh": "我们都不会游泳。（按实际情况使用）",
+          "audio": ""
+        },
+        {
+          "role": "向导",
+          "en": "Would you prefer to stay on the boat?",
+          "zh": "你们更想留在船上吗？",
+          "audio": ""
+        },
+        {
+          "role": "旅客",
+          "en": "Yes. Can we all stay aboard?",
+          "zh": "是的。我们都可以留在船上吗？",
+          "audio": ""
+        },
+        {
+          "role": "向导",
+          "en": "Let me check the arrangements with the captain.",
+          "zh": "我先向船长确认一下安排。",
+          "audio": ""
+        }
+      ],
+      "number": 14
+    },
+    {
+      "id": "medical-help",
+      "title": "不舒服、受伤与就医",
+      "subtitle": "先记几句紧急求助，再练习按实际情况说明症状和受伤经过",
+      "icon": "heart-pulse",
+      "phrases": [
+        {
+          "id": "medical-help-1",
+          "en": "Help! I can't breathe!",
+          "zh": "救命！我无法呼吸！",
+          "chunks": "Help! / I can't breathe!",
+          "tip": "紧急求助用语；按真实情况使用。",
+          "urgent": true,
+          "audio": ""
+        },
+        {
+          "id": "medical-help-2",
+          "en": "Call an ambulance, please!",
+          "zh": "请叫救护车！",
+          "chunks": "Call an ambulance, / please!",
+          "tip": "ambulance 是救护车。泰国紧急求助电话为 191。",
+          "urgent": true,
+          "audio": ""
+        },
+        {
+          "id": "medical-help-3",
+          "en": "My friend is unconscious.",
+          "zh": "我的朋友失去意识了。",
+          "chunks": "My friend / is unconscious.",
+          "tip": "unconscious 指失去意识；如果只能确认没有回应，可说 My friend isn't responding。",
+          "urgent": true,
+          "audio": ""
+        },
+        {
+          "id": "medical-help-4",
+          "en": "A snake bit me.",
+          "zh": "我被蛇咬了。",
+          "chunks": "A snake / bit me.",
+          "tip": "只在确知是蛇时这样说；不知道是什么就用 Something bit me。",
+          "urgent": true,
+          "audio": ""
+        },
+        {
+          "id": "medical-help-5",
+          "en": "I need a doctor.",
+          "zh": "我需要医生。",
+          "chunks": "I need / a doctor.",
+          "tip": "对酒店、向导或工作人员表达需要医疗帮助。",
+          "urgent": true,
+          "audio": ""
+        },
+        {
+          "id": "medical-help-6",
+          "en": "I feel nauseous.",
+          "zh": "我恶心，想吐。",
+          "chunks": "I feel / nauseous.",
+          "tip": "nauseous 表示恶心、想吐，不等于已经吐了。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "medical-help-7",
+          "en": "I feel dizzy.",
+          "zh": "我头晕。",
+          "chunks": "I feel / dizzy.",
+          "tip": "描述感受即可，不用先判断头晕的原因。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "medical-help-8",
+          "en": "I've been vomiting.",
+          "zh": "我一直在呕吐。",
+          "chunks": "I've been / vomiting.",
+          "tip": "适用于已经反复呕吐；如果只吐过一次，可说 I vomited once。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "medical-help-9",
+          "en": "It hurts here.",
+          "zh": "这里痛。",
+          "chunks": "It hurts / here.",
+          "tip": "说 here 时指明实际疼痛的位置。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "medical-help-10",
+          "en": "This area is swelling.",
+          "zh": "这一块正在肿起来。",
+          "chunks": "This area / is swelling.",
+          "tip": "描述可见变化；已经肿了可说 This area is swollen。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "medical-help-11",
+          "en": "I have a rash.",
+          "zh": "我起皮疹了。",
+          "chunks": "I have / a rash.",
+          "tip": "rash 是皮疹；说明看到的皮肤变化，不用猜原因。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "medical-help-12",
+          "en": "I'm allergic to this medicine.",
+          "zh": "我对这个药过敏。",
+          "chunks": "I'm allergic / to this medicine.",
+          "tip": "只有已知自己对该药过敏才使用；this medicine 可对应药名或清单。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "medical-help-13",
+          "en": "I cut my foot on coral.",
+          "zh": "我的脚被珊瑚划伤了。",
+          "chunks": "I cut my foot / on coral.",
+          "tip": "cut 表示划伤或割伤；确实被珊瑚划到时使用。",
+          "urgent": true,
+          "audio": ""
+        },
+        {
+          "id": "medical-help-14",
+          "en": "Something is stuck in my foot.",
+          "zh": "有东西扎在我的脚里。",
+          "chunks": "Something is stuck / in my foot.",
+          "tip": "说明有东西嵌在脚里；不确定是什么时，用 something。",
+          "urgent": true,
+          "audio": ""
+        },
+        {
+          "id": "medical-help-15",
+          "en": "A jellyfish stung me.",
+          "zh": "我被水母蜇了。",
+          "chunks": "A jellyfish / stung me.",
+          "tip": "jellyfish 是水母，stung 是蜇了；只有确认是水母时这样说。",
+          "urgent": true,
+          "audio": ""
+        },
+        {
+          "id": "medical-help-16",
+          "en": "Something bit me.",
+          "zh": "有东西咬了我。",
+          "chunks": "Something / bit me.",
+          "tip": "确定被咬，但不知道是什么生物时使用，不必猜物种。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "medical-help-17",
+          "en": "I don't know what bit or stung me.",
+          "zh": "我不知道是什么咬了或蜇了我。",
+          "chunks": "I don't know / what bit or stung me.",
+          "tip": "不清楚生物或咬、蜇方式时，这句保留了不确定性。",
+          "urgent": true,
+          "audio": ""
+        },
+        {
+          "id": "medical-help-18",
+          "en": "Could you help us get to a clinic?",
+          "zh": "可以帮我们前往诊所吗？",
+          "chunks": "Could you help us / get to a clinic?",
+          "tip": "clinic 是诊所；需要医院时可把 clinic 换成 hospital。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "medical-help-unwell",
+          "en": "I don't feel well.",
+          "zh": "我不舒服。",
+          "chunks": "I don't / feel well.",
+          "tip": "还说不清具体症状时，先用这句求助。",
+          "audio": ""
+        },
+        {
+          "id": "medical-help-seasick",
+          "en": "I feel seasick.",
+          "zh": "我晕船了。",
+          "chunks": "I feel / seasick.",
+          "tip": "seasick 是晕船。",
+          "audio": ""
+        },
+        {
+          "id": "medical-help-stomach",
+          "en": "I have a stomach ache.",
+          "zh": "我肚子痛。",
+          "chunks": "I have / a stomach ache.",
+          "tip": "按实际情况说明疼痛和其他症状。",
+          "audio": ""
+        },
+        {
+          "id": "medical-help-bleeding",
+          "en": "My foot is bleeding.",
+          "zh": "我的脚在流血。",
+          "chunks": "My foot / is bleeding.",
+          "tip": "按实际部位替换 foot。",
+          "audio": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "旅客",
+          "en": "I cut my foot on coral.",
+          "zh": "我的脚被珊瑚划伤了。",
+          "audio": ""
+        },
+        {
+          "role": "工作人员",
+          "en": "Can you show me where it hurts?",
+          "zh": "可以告诉我哪里痛吗？",
+          "audio": ""
+        },
+        {
+          "role": "旅客",
+          "en": "Here. Something is stuck in my foot.",
+          "zh": "这里。有东西扎在我的脚里。",
+          "audio": ""
+        },
+        {
+          "role": "工作人员",
+          "en": "I'll help you contact a medical professional.",
+          "zh": "我帮您联系医护人员。",
+          "audio": ""
+        }
+      ],
+      "number": 15
+    },
+    {
+      "id": "room-safety",
+      "title": "房间有虫与酒店求助",
+      "subtitle": "说清看到什么、在哪里，请酒店检查并协助换房",
+      "icon": "bug",
+      "phrases": [
+        {
+          "id": "room-safety-1",
+          "en": "There's a large insect in our room.",
+          "zh": "我们房间里有一只大虫子。",
+          "chunks": "There's a large insect / in our room.",
+          "tip": "不知道虫子的名称时，用 large insect 即可，不猜具体种类。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "room-safety-2",
+          "en": "There's a cockroach in the bathroom.",
+          "zh": "浴室里有一只蟑螂。",
+          "chunks": "There's a cockroach / in the bathroom.",
+          "tip": "cockroach 是蟑螂；只在看清楚后使用具体名称。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "room-safety-3",
+          "en": "There's a spider near the bed.",
+          "zh": "床边有一只蜘蛛。",
+          "chunks": "There's a spider / near the bed.",
+          "tip": "spider 是蜘蛛；near the bed 表示在床附近。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "room-safety-4",
+          "en": "There's a snake in our room.",
+          "zh": "我们房间里有一条蛇。",
+          "chunks": "There's a snake / in our room.",
+          "tip": "确认看到蛇时使用；拿不准可说 I think there's a snake。",
+          "urgent": true,
+          "audio": ""
+        },
+        {
+          "id": "room-safety-5",
+          "en": "Please send someone to help.",
+          "zh": "请派人来帮忙。",
+          "chunks": "Please send someone / to help.",
+          "tip": "向前台提出请求后，补充实际房号和位置。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "room-safety-6",
+          "en": "We are staying away from it.",
+          "zh": "我们正和它保持距离。",
+          "chunks": "We are staying / away from it.",
+          "tip": "用来描述你们当前的位置和做法；it 指刚提到的虫或动物。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "room-safety-7",
+          "en": "We are waiting outside the room.",
+          "zh": "我们正在房间外面等。",
+          "chunks": "We are waiting / outside the room.",
+          "tip": "告诉工作人员去哪里找你们；只按实际等候地点使用。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "room-safety-8",
+          "en": "Could you check the whole room?",
+          "zh": "可以检查一下整个房间吗？",
+          "chunks": "Could you check / the whole room?",
+          "tip": "whole room 指整个房间。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "room-safety-9",
+          "en": "Could you check the bedding?",
+          "zh": "可以检查一下床上用品吗？",
+          "chunks": "Could you check / the bedding?",
+          "tip": "bedding 包括床单、被子等床上用品。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "room-safety-10",
+          "en": "Could you check the bathroom?",
+          "zh": "可以检查一下浴室吗？",
+          "chunks": "Could you check / the bathroom?",
+          "tip": "与房间检查分开说，明确希望查看的位置。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "room-safety-11",
+          "en": "Could we change rooms?",
+          "zh": "我们可以换个房间吗？",
+          "chunks": "Could we / change rooms?",
+          "tip": "提出换房请求；有没有空房需要酒店确认。",
+          "urgent": false,
+          "audio": ""
+        },
+        {
+          "id": "room-safety-12",
+          "en": "Please tell us when we can return.",
+          "zh": "请告诉我们什么时候可以回房间。",
+          "chunks": "Please tell us / when we can return.",
+          "tip": "用于等待酒店处理后的沟通，不表示已经得到安全保证。",
+          "urgent": false,
+          "audio": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "旅客",
+          "en": "There's a large insect in our room.",
+          "zh": "我们房间里有一只大虫子。",
+          "audio": ""
+        },
+        {
+          "role": "酒店前台",
+          "en": "Which room are you in?",
+          "zh": "您住在哪个房间？",
+          "audio": ""
+        },
+        {
+          "role": "旅客",
+          "en": "Room two-oh-five. Could we change rooms?",
+          "zh": "205 房间。我们可以换房吗？",
+          "audio": ""
+        },
+        {
+          "role": "酒店前台",
+          "en": "I'll check room availability and send someone to help.",
+          "zh": "我查一下空房，也派人过来帮忙。",
+          "audio": ""
+        }
+      ],
+      "number": 16
+    }
+  ],
+  "emergency": {
+    "number": "191",
+    "source": "https://www.tourismthailand.org"
+  }
+}

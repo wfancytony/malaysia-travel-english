@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#006756">
-  <meta name="description" content="三人马来西亚旅行英语：亚庇、仙本那、吉隆坡，涵盖航班行李、吃饭付款、地名特产和水上求助，支持发音与跟读。">
-  <title>出发吧 · 马来西亚旅行英语</title>
+  <meta name="description" content="旅行英语口袋手册：选择目的地，按场景练习常用短句与对话，支持发音、跟读和求助速查。">
+  <title>出发吧 · 旅行英语</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23006756'/%3E%3Cpath d='M16 19h32v23H31L21 50v-8h-5z' fill='%23e6ff86'/%3E%3Cpath d='M24 27h17M24 34h11' stroke='%23006756' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css?v=3"><script defer src="app.js?v=3"></script>
+  <link rel="stylesheet" href="styles.css?v=4"><script defer src="app.js?v=4"></script>
 </head>
 <body>
-  <header class="topbar"><a class="brand" href="./" aria-label="出发吧首页"><span class="brand-mark">Hi<span>!</span></span><span>出发吧<small>TRAVEL ENGLISH</small></span></a><div class="header-actions"><button id="help-button" class="help-button">＋ 求助速查</button><span class="destination">MALAYSIA <span>三人 · 六天</span></span></div></header>
+  <header class="topbar"><a class="brand" href="./" aria-label="出发吧首页"><span class="brand-mark">Hi<span>!</span></span><span>出发吧<small>TRAVEL ENGLISH</small></span></a><div class="header-actions"><button id="help-button" class="help-button">＋ 求助速查</button><div class="destination-selector"><button id="dest-toggle" class="dest-toggle" aria-label="选择目的地">🇲🇾 马来西亚</button><div id="dest-menu" class="dest-menu" hidden></div></div></div></header>
   <main class="layout">
     <aside class="sidebar">
-      <section class="trip-banner"><div><p class="eyebrow">YOUR POCKET PHRASEBOOK</p><h1>这趟旅行，<br>开口就好。</h1><p>亚庇 · 仙本那 · 吉隆坡</p></div><span class="trip-stamp">LET’S<br>GO!</span></section>
+      <section class="trip-banner"><div><p class="eyebrow">YOUR POCKET PHRASEBOOK</p><h1>这趟旅行，<br>开口就好。</h1><p id="trip-cities">亚庇 · 仙本那 · 吉隆坡</p></div><span class="trip-stamp">LET’S<br>GO!</span></section>
       <div class="search-box"><label for="phrase-search">临时要用哪一句？</label><div class="search-input-wrap"><input id="phrase-search" type="search" placeholder="搜：登机口、微信、抽筋、超市" autocomplete="off"><button id="clear-search" aria-label="清空搜索" hidden>×</button></div><div id="search-results" class="search-results" hidden></div><p id="search-status" class="search-status" aria-live="polite" hidden></p></div><div class="course-heading"><h2>按场景练习</h2><span id="total-progress">0 / 48</span></div>
       <label class="mobile-lesson-label" for="lesson-select">选择场景</label><select id="lesson-select" class="mobile-lesson-select" aria-label="选择练习场景"></select><nav id="lesson-nav" class="lesson-nav" aria-label="选择练习场景"></nav>
-      <p class="aside-note">三人同行，按要用到的场景练。<br>单词和地名也能点读，记不住就给对方看。</p>
+      <p class="aside-note">按要用到的场景练。<br>单词和地名也能点读，记不住就给对方看。</p>
       <div class="overall-progress"><span id="progress-fill"></span></div>
     </aside>
     <section class="workspace" id="practice-workspace" aria-labelledby="lesson-title">
@@ -28,7 +28,7 @@
         <div class="phrase-list-heading"><h3 id="phrase-list-title">这一课的短句</h3><span>点一句，就能练</span></div><div class="phrase-list" id="phrase-list"></div>
       </section>
       <section id="dialogue-panel" role="tabpanel" aria-labelledby="dialogue-tab" hidden><div class="dialogue-intro"><h3>试着听懂对方</h3><p>点每一句听发音，再试着接上自己的回答。</p></div><button class="primary-button dialogue-play" id="dialogue-play">▶ 播放整段对话</button><div id="dialogue-lines" class="dialogue-lines"></div><p class="dialogue-note">示例信息请按实际情况替换。</p></section>
-      <footer><span>每天几分钟，旅途中多一点从容。</span><details><summary>练习说明</summary><p>发音为合成英语示范；地名按英语语音读出，仅供跟读参考，沟通时可同时展示英文名。慢速播放保留原音调；跟读会播放两遍，中间留出开口时间。进度只保存在当前浏览器。播放需要联网；请保持页面在前台。若微信内无法播放，请用 Safari 或 Chrome 打开。</p><p>本册中的年龄、航班号、数字和时间若标有“示例”，请按你们的实际信息替换。行李免费额度、收款方式和费用请以所乘航司及商家答复为准。地图链接用于搜索同名地点；请核对城市和门店。</p><p id="photo-credit">海滩摄影：<a href="https://unsplash.com/photos/an-aerial-view-of-a-beach-with-palm-trees-NzyRSZAZYLA" target="_blank" rel="noopener noreferrer">Zachary Black / Unsplash</a>。热浪岛图片仅作旅行配图。</p></details></footer>
+      <footer><span>每天几分钟，旅途中多一点从容。</span><details><summary>练习说明</summary><p>发音为合成英语示范；地名按英语语音读出，仅供跟读参考，沟通时可同时展示英文名。慢速播放保留原音调；跟读会播放两遍，中间留出开口时间。进度只保存在当前浏览器。播放需要联网；请保持页面在前台。若微信内无法播放，请用 Safari 或 Chrome 打开。</p><p>本册中的年龄、航班号、数字和时间若标有”示例”，请按实际信息替换。行李免费额度、收款方式和费用请以所乘航司及商家答复为准。地图链接用于搜索同名地点；请核对城市和门店。</p><p id=”photo-credit”>海滩摄影：<a href=”https://unsplash.com/photos/an-aerial-view-of-a-beach-with-palm-trees-NzyRSZAZYLA” target=”_blank” rel=”noopener noreferrer”>Zachary Black / Unsplash</a>。图片仅作旅行配图。</p></details></footer>
     </section>
   </main><dialog id="help-dialog" class="help-dialog"><div class="dialog-heading"><h2>求助速查</h2><button id="help-close" aria-label="关闭求助速查">×</button></div><p class="help-intro">点一句，放大给身边的人看，也可以播放。</p><div id="emergency-contact"></div><div id="help-phrases" class="help-phrases"></div></dialog><dialog id="show-dialog" class="show-dialog"><div class="dialog-heading"><span>PLEASE HELP ME COMMUNICATE</span><button id="show-close" aria-label="关闭大字卡">×</button></div><p id="show-english" lang="en"></p><p id="show-chinese"></p><p id="show-tip"></p><button id="show-play" class="primary-button">▶ 播放这句话</button><p id="show-status" aria-live="polite"></p></dialog><div class="toast" id="toast" role="status" hidden></div>
   <nav class="mobile-navigation" aria-label="手机快捷导航">

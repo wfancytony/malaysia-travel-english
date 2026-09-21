@@ -1,0 +1,5 @@
+[
+  {"id": "malaysia", "name": "马来西亚", "nameEn": "Malaysia", "file": "data/malaysia.json", "icon": "🇲🇾"},
+  {"id": "thailand", "name": "泰国", "nameEn": "Thailand", "file": "data/thailand.json", "icon": "🇹🇭"},
+  {"id": "japan", "name": "日本", "nameEn": "Japan", "file": "data/japan.json", "icon": "🇯🇵"}
+]
